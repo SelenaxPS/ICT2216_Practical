@@ -105,7 +105,7 @@ pipeline {
             steps {
                 withSonarQubeEnv('SonarQube') {
                     withCredentials([string(credentialsId: 'SONARQUBE_KEY', variable: 'SONARQUBE_TOKEN')]) {
-                        dir('workspace/flask') {
+                        dir('workspace/webapp') {
                             sh '''
                             #!/bin/bash
                             ${SONARQUBE_SCANNER_HOME}/bin/sonar-scanner \
