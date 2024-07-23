@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  jenkins:
+    container_name: jenkins
+    build: ./jenkins
+    ports:
+      - '8080:8080'
+      - '443:8443'
+      - '50000:50000'
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - jenkins_data:/var/jenkins_home
+      
+  git: 
+    image: alpine/git 
+    container_name: git 
+    entrypoint: /bin/sh -c "git config --global user.name 'Li Peishan' && git config --global user.email '2102934@sit.singaporetech.edu.sg' && tail -f /dev/null"
+    
+  flask-app:
+    build: 
+      context: ./webapp
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+
+volumes:
+  jenkins_data:
+    driver: local
