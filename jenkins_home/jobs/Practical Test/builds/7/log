@@ -1,0 +1,376 @@
+Started by user unknown or anonymous
+Obtained Jenkinsfile from git https://github.com/SelenaxPS/ICT2216_Practical
+[8mha:////4MVZFM5aDQ1uhC70wCxAt293Mwjz50pQPIa4oJogjbw2AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4EOQRH4udfqq+qu7U5R0Rt9vWPGmfBCIgfXUPSTIUt1MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4JujYsucw8Zc4LpdapzTJKhUPIm1oG5yO7q7ZSEXde4DAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/Practical Test
+[8mha:////4JR/Z6XQvWUgScUYZgFNGGXjM4Ms+6NbUxh3XXbrE9WiAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4I7D6skW7bDF3X47TW91QGsj2w5glyqIeHiCLUJ9LDUlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4P/mFS2dlaz7A2JU9MIwTiXQ9Dpc0o+syMc0m+Fu1MADAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Ibq95CfKlnQCTigCEpfG3Llo3WsQiu2DoFQGAqWGD5TAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Practical Test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/SelenaxPS/ICT2216_Practical # timeout=10
+Fetching upstream changes from https://github.com/SelenaxPS/ICT2216_Practical
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/SelenaxPS/ICT2216_Practical +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision f74cbc54e4adadf200c6cd4bc2958f25de093f1a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f74cbc54e4adadf200c6cd4bc2958f25de093f1a # timeout=10
+Commit message: "[Update] Jenkins file"
+ > git rev-list --no-walk f74cbc54e4adadf200c6cd4bc2958f25de093f1a # timeout=10
+[8mha:////4JYeS6NYSXJBZBvM0cALn+gZOw2zw8eA5Mutp+GP6ALkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4BXfMmc2LAkT/Fe6ANGSjC1JjDbaBVhdcPHiou8j/7fiAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4O4/IvJTIQY23WLNIFo39MevNye+rkrN7I5vGZ9H9VNCAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4Nf8/p0a1PML8+LWB+6V0HoSii5U52iE1lPpzjzqH+6oAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4N1vLltXVPY5Z/vY3HGiA145SkDj+gWUjoGWtOUGHWYjAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4Eap7xsr3Rzgdv64ittoLKJvKIJblbtPdjebHXPTjCwjAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4CNk8naVcjkN2QMaM0BulYf5JqjGi8oYeFDcxq2lYBO5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4OP/Wrp8FAbEbmqBtZzUobda4HKofAVwumrmYco8BDlOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Check Docker)
+[8mha:////4KaXQPkx0V1d5M37iGa4YDNA1lxLWmuj9jqMzxwHgmDmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ 
++ echo Docker is not installed. Installing Docker...
+Docker is not installed. Installing Docker...
++ apt-get update
++ command -v docker
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+Hit:4 https://packagecloud.io/github/git-lfs/debian bookworm InRelease
+Reading package lists...
++ apt-get install -y docker.io
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  apparmor binutils binutils-common binutils-x86-64-linux-gnu cgroupfs-mount
+  dbus-user-session gettext-base iptables libbinutils libctf-nobfd0 libctf0
+  libgprofng0 libintl-perl libintl-xs-perl libip6tc2 libjansson4 libmnl0
+  libmodule-find-perl libmodule-scandeps-perl libnetfilter-conntrack3
+  libnfnetlink0 libnftables1 libnftnl11 libpam-systemd
+  libproc-processtable-perl libsort-naturally-perl libterm-readkey-perl
+  libxtables12 needrestart netbase nftables xz-utils
+Suggested packages:
+  apparmor-profiles-extra apparmor-utils binutils-doc docker-doc aufs-tools
+  btrfs-progs debootstrap rinse rootlesskit xfsprogs zfs-fuse | zfsutils-linux
+  firewalld kmod needrestart-session | libnotify-bin iucode-tool
+The following NEW packages will be installed:
+  apparmor binutils binutils-common binutils-x86-64-linux-gnu cgroupfs-mount
+  dbus-user-session docker.io gettext-base iptables libbinutils libctf-nobfd0
+  libctf0 libgprofng0 libintl-perl libintl-xs-perl libip6tc2 libjansson4
+  libmnl0 libmodule-find-perl libmodule-scandeps-perl libnetfilter-conntrack3
+  libnfnetlink0 libnftables1 libnftnl11 libpam-systemd
+  libproc-processtable-perl libsort-naturally-perl libterm-readkey-perl
+  libxtables12 needrestart netbase nftables xz-utils
+0 upgraded, 33 newly installed, 0 to remove and 0 not upgraded.
+9 not fully installed or removed.
+Need to get 46.1 MB of archives.
+After this operation, 200 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bookworm/main amd64 libip6tc2 amd64 1.8.9-2 [19.4 kB]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 libxtables12 amd64 1.8.9-2 [30.8 kB]
+Get:3 http://deb.debian.org/debian bookworm/main amd64 netbase all 6.4 [12.8 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 libmnl0 amd64 1.0.4-3 [12.5 kB]
+Get:5 http://deb.debian.org/debian bookworm/main amd64 libnfnetlink0 amd64 1.0.2-2 [15.1 kB]
+Get:6 http://deb.debian.org/debian bookworm/main amd64 libnetfilter-conntrack3 amd64 1.0.9-3 [40.7 kB]
+Get:7 http://deb.debian.org/debian bookworm/main amd64 libnftnl11 amd64 1.2.4-2 [61.6 kB]
+Get:8 http://deb.debian.org/debian bookworm/main amd64 iptables amd64 1.8.9-2 [360 kB]
+Get:9 http://deb.debian.org/debian bookworm/main amd64 docker.io amd64 20.10.24+dfsg1-1+b3 [36.2 MB]
+Get:10 http://deb.debian.org/debian bookworm/main amd64 libjansson4 amd64 2.14-2 [40.8 kB]
+Get:11 http://deb.debian.org/debian bookworm/main amd64 libnftables1 amd64 1.0.6-2+deb12u2 [299 kB]
+Get:12 http://deb.debian.org/debian bookworm/main amd64 nftables amd64 1.0.6-2+deb12u2 [70.3 kB]
+Get:13 http://deb.debian.org/debian bookworm/main amd64 gettext-base amd64 0.21-12 [160 kB]
+Get:14 http://deb.debian.org/debian bookworm/main amd64 libpam-systemd amd64 252.26-1~deb12u2 [225 kB]
+Get:15 http://deb.debian.org/debian bookworm/main amd64 xz-utils amd64 5.4.1-0.2 [471 kB]
+Get:16 http://deb.debian.org/debian bookworm/main amd64 apparmor amd64 3.0.8-3 [616 kB]
+Get:17 http://deb.debian.org/debian bookworm/main amd64 binutils-common amd64 2.40-2 [2487 kB]
+Get:18 http://deb.debian.org/debian bookworm/main amd64 libbinutils amd64 2.40-2 [572 kB]
+Get:19 http://deb.debian.org/debian bookworm/main amd64 libctf-nobfd0 amd64 2.40-2 [153 kB]
+Get:20 http://deb.debian.org/debian bookworm/main amd64 libctf0 amd64 2.40-2 [89.8 kB]
+Get:21 http://deb.debian.org/debian bookworm/main amd64 libgprofng0 amd64 2.40-2 [812 kB]
+Get:22 http://deb.debian.org/debian bookworm/main amd64 binutils-x86-64-linux-gnu amd64 2.40-2 [2246 kB]
+Get:23 http://deb.debian.org/debian bookworm/main amd64 binutils amd64 2.40-2 [65.0 kB]
+Get:24 http://deb.debian.org/debian bookworm/main amd64 cgroupfs-mount all 1.4 [6276 B]
+Get:25 http://deb.debian.org/debian bookworm/main amd64 dbus-user-session amd64 1.14.10-1~deb12u1 [78.1 kB]
+Get:26 http://deb.debian.org/debian bookworm/main amd64 libintl-perl all 1.33-1 [720 kB]
+Get:27 http://deb.debian.org/debian bookworm/main amd64 libintl-xs-perl amd64 1.33-1 [15.6 kB]
+Get:28 http://deb.debian.org/debian bookworm/main amd64 libmodule-find-perl all 0.16-2 [10.6 kB]
+Get:29 http://deb.debian.org/debian bookworm/main amd64 libmodule-scandeps-perl all 1.31-2 [41.7 kB]
+Get:30 http://deb.debian.org/debian bookworm/main amd64 libproc-processtable-perl amd64 0.634-1+b2 [43.1 kB]
+Get:31 http://deb.debian.org/debian bookworm/main amd64 libsort-naturally-perl all 1.03-4 [13.1 kB]
+Get:32 http://deb.debian.org/debian bookworm/main amd64 libterm-readkey-perl amd64 2.38-2+b1 [24.5 kB]
+Get:33 http://deb.debian.org/debian bookworm/main amd64 needrestart all 3.6-4+deb12u1 [59.8 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 46.1 MB in 1s (35.9 MB/s)
+Selecting previously unselected package libip6tc2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 11645 files and directories currently installed.)
+Preparing to unpack .../00-libip6tc2_1.8.9-2_amd64.deb ...
+Unpacking libip6tc2:amd64 (1.8.9-2) ...
+Selecting previously unselected package libxtables12:amd64.
+Preparing to unpack .../01-libxtables12_1.8.9-2_amd64.deb ...
+Unpacking libxtables12:amd64 (1.8.9-2) ...
+Selecting previously unselected package netbase.
+Preparing to unpack .../02-netbase_6.4_all.deb ...
+Unpacking netbase (6.4) ...
+Selecting previously unselected package libmnl0:amd64.
+Preparing to unpack .../03-libmnl0_1.0.4-3_amd64.deb ...
+Unpacking libmnl0:amd64 (1.0.4-3) ...
+Selecting previously unselected package libnfnetlink0:amd64.
+Preparing to unpack .../04-libnfnetlink0_1.0.2-2_amd64.deb ...
+Unpacking libnfnetlink0:amd64 (1.0.2-2) ...
+Selecting previously unselected package libnetfilter-conntrack3:amd64.
+Preparing to unpack .../05-libnetfilter-conntrack3_1.0.9-3_amd64.deb ...
+Unpacking libnetfilter-conntrack3:amd64 (1.0.9-3) ...
+Selecting previously unselected package libnftnl11:amd64.
+Preparing to unpack .../06-libnftnl11_1.2.4-2_amd64.deb ...
+Unpacking libnftnl11:amd64 (1.2.4-2) ...
+Selecting previously unselected package iptables.
+Preparing to unpack .../07-iptables_1.8.9-2_amd64.deb ...
+Unpacking iptables (1.8.9-2) ...
+Selecting previously unselected package docker.io.
+Preparing to unpack .../08-docker.io_20.10.24+dfsg1-1+b3_amd64.deb ...
+Unpacking docker.io (20.10.24+dfsg1-1+b3) ...
+Selecting previously unselected package libjansson4:amd64.
+Preparing to unpack .../09-libjansson4_2.14-2_amd64.deb ...
+Unpacking libjansson4:amd64 (2.14-2) ...
+Selecting previously unselected package libnftables1:amd64.
+Preparing to unpack .../10-libnftables1_1.0.6-2+deb12u2_amd64.deb ...
+Unpacking libnftables1:amd64 (1.0.6-2+deb12u2) ...
+Selecting previously unselected package nftables.
+Preparing to unpack .../11-nftables_1.0.6-2+deb12u2_amd64.deb ...
+Unpacking nftables (1.0.6-2+deb12u2) ...
+Selecting previously unselected package gettext-base.
+Preparing to unpack .../12-gettext-base_0.21-12_amd64.deb ...
+Unpacking gettext-base (0.21-12) ...
+Selecting previously unselected package libpam-systemd:amd64.
+Preparing to unpack .../13-libpam-systemd_252.26-1~deb12u2_amd64.deb ...
+Unpacking libpam-systemd:amd64 (252.26-1~deb12u2) ...
+Selecting previously unselected package xz-utils.
+Preparing to unpack .../14-xz-utils_5.4.1-0.2_amd64.deb ...
+Unpacking xz-utils (5.4.1-0.2) ...
+Selecting previously unselected package apparmor.
+Preparing to unpack .../15-apparmor_3.0.8-3_amd64.deb ...
+Unpacking apparmor (3.0.8-3) ...
+Selecting previously unselected package binutils-common:amd64.
+Preparing to unpack .../16-binutils-common_2.40-2_amd64.deb ...
+Unpacking binutils-common:amd64 (2.40-2) ...
+Selecting previously unselected package libbinutils:amd64.
+Preparing to unpack .../17-libbinutils_2.40-2_amd64.deb ...
+Unpacking libbinutils:amd64 (2.40-2) ...
+Selecting previously unselected package libctf-nobfd0:amd64.
+Preparing to unpack .../18-libctf-nobfd0_2.40-2_amd64.deb ...
+Unpacking libctf-nobfd0:amd64 (2.40-2) ...
+Selecting previously unselected package libctf0:amd64.
+Preparing to unpack .../19-libctf0_2.40-2_amd64.deb ...
+Unpacking libctf0:amd64 (2.40-2) ...
+Selecting previously unselected package libgprofng0:amd64.
+Preparing to unpack .../20-libgprofng0_2.40-2_amd64.deb ...
+Unpacking libgprofng0:amd64 (2.40-2) ...
+Selecting previously unselected package binutils-x86-64-linux-gnu.
+Preparing to unpack .../21-binutils-x86-64-linux-gnu_2.40-2_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.40-2) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../22-binutils_2.40-2_amd64.deb ...
+Unpacking binutils (2.40-2) ...
+Selecting previously unselected package cgroupfs-mount.
+Preparing to unpack .../23-cgroupfs-mount_1.4_all.deb ...
+Unpacking cgroupfs-mount (1.4) ...
+Selecting previously unselected package dbus-user-session.
+Preparing to unpack .../24-dbus-user-session_1.14.10-1~deb12u1_amd64.deb ...
+Unpacking dbus-user-session (1.14.10-1~deb12u1) ...
+Selecting previously unselected package libintl-perl.
+Preparing to unpack .../25-libintl-perl_1.33-1_all.deb ...
+Unpacking libintl-perl (1.33-1) ...
+Selecting previously unselected package libintl-xs-perl.
+Preparing to unpack .../26-libintl-xs-perl_1.33-1_amd64.deb ...
+Unpacking libintl-xs-perl (1.33-1) ...
+Selecting previously unselected package libmodule-find-perl.
+Preparing to unpack .../27-libmodule-find-perl_0.16-2_all.deb ...
+Unpacking libmodule-find-perl (0.16-2) ...
+Selecting previously unselected package libmodule-scandeps-perl.
+Preparing to unpack .../28-libmodule-scandeps-perl_1.31-2_all.deb ...
+Unpacking libmodule-scandeps-perl (1.31-2) ...
+Selecting previously unselected package libproc-processtable-perl:amd64.
+Preparing to unpack .../29-libproc-processtable-perl_0.634-1+b2_amd64.deb ...
+Unpacking libproc-processtable-perl:amd64 (0.634-1+b2) ...
+Selecting previously unselected package libsort-naturally-perl.
+Preparing to unpack .../30-libsort-naturally-perl_1.03-4_all.deb ...
+Unpacking libsort-naturally-perl (1.03-4) ...
+Selecting previously unselected package libterm-readkey-perl.
+Preparing to unpack .../31-libterm-readkey-perl_2.38-2+b1_amd64.deb ...
+Unpacking libterm-readkey-perl (2.38-2+b1) ...
+Selecting previously unselected package needrestart.
+Preparing to unpack .../32-needrestart_3.6-4+deb12u1_all.deb ...
+Unpacking needrestart (3.6-4+deb12u1) ...
+Setting up systemd-sysv (252.26-1~deb12u2) ...
+Setting up libip6tc2:amd64 (1.8.9-2) ...
+Setting up binutils-common:amd64 (2.40-2) ...
+Setting up libctf-nobfd0:amd64 (2.40-2) ...
+Setting up gettext-base (0.21-12) ...
+Setting up runc (1.1.5+ds1-1+deb12u1) ...
+Setting up libjansson4:amd64 (2.14-2) ...
+Setting up apparmor (3.0.8-3) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+Created symlink /etc/systemd/system/sysinit.target.wants/apparmor.service → /lib/systemd/system/apparmor.service.
+Setting up libmodule-find-perl (0.16-2) ...
+Setting up libdbus-1-3:amd64 (1.14.10-1~deb12u1) ...
+Setting up xz-utils (5.4.1-0.2) ...
+update-alternatives: using /usr/bin/xz to provide /usr/bin/lzma (lzma) in auto mode
+Setting up libmnl0:amd64 (1.0.4-3) ...
+Setting up libxtables12:amd64 (1.8.9-2) ...
+Setting up libproc-processtable-perl:amd64 (0.634-1+b2) ...
+Setting up libnfnetlink0:amd64 (1.0.2-2) ...
+Setting up dbus-session-bus-common (1.14.10-1~deb12u1) ...
+Setting up libintl-perl (1.33-1) ...
+Setting up netbase (6.4) ...
+Setting up cgroupfs-mount (1.4) ...
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up libterm-readkey-perl (2.38-2+b1) ...
+Setting up libbinutils:amd64 (2.40-2) ...
+Setting up dbus-system-bus-common (1.14.10-1~deb12u1) ...
+Setting up containerd (1.6.20~ds1-1+b1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.
+Setting up libsort-naturally-perl (1.03-4) ...
+Setting up libmodule-scandeps-perl (1.31-2) ...
+Setting up dbus-bin (1.14.10-1~deb12u1) ...
+Setting up libctf0:amd64 (2.40-2) ...
+Setting up libnftnl11:amd64 (1.2.4-2) ...
+Setting up dbus-daemon (1.14.10-1~deb12u1) ...
+Setting up libintl-xs-perl (1.33-1) ...
+Setting up libgprofng0:amd64 (2.40-2) ...
+Setting up dbus (1.14.10-1~deb12u1) ...
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up libnetfilter-conntrack3:amd64 (1.0.9-3) ...
+Setting up libpam-systemd:amd64 (252.26-1~deb12u2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+Setting up binutils-x86-64-linux-gnu (2.40-2) ...
+Setting up libnftables1:amd64 (1.0.6-2+deb12u2) ...
+Setting up nftables (1.0.6-2+deb12u2) ...
+Setting up iptables (1.8.9-2) ...
+update-alternatives: using /usr/sbin/iptables-legacy to provide /usr/sbin/iptables (iptables) in auto mode
+update-alternatives: using /usr/sbin/ip6tables-legacy to provide /usr/sbin/ip6tables (ip6tables) in auto mode
+update-alternatives: using /usr/sbin/iptables-nft to provide /usr/sbin/iptables (iptables) in auto mode
+update-alternatives: using /usr/sbin/ip6tables-nft to provide /usr/sbin/ip6tables (ip6tables) in auto mode
+update-alternatives: using /usr/sbin/arptables-nft to provide /usr/sbin/arptables (arptables) in auto mode
+update-alternatives: using /usr/sbin/ebtables-nft to provide /usr/sbin/ebtables (ebtables) in auto mode
+Setting up docker.io (20.10.24+dfsg1-1+b3) ...
+Adding group `docker' (GID 103) ...
+Done.
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
+Setting up binutils (2.40-2) ...
+Setting up dbus-user-session (1.14.10-1~deb12u1) ...
+Setting up needrestart (3.6-4+deb12u1) ...
+Processing triggers for libc-bin (2.36-9+deb12u7) ...
++ docker --version
+Docker version 20.10.24+dfsg1, build 297e128
+[8mha:////4Br8Ltu4InbVjmwxyuEqk37EC8o21xAfzKZ4/LIqGKmdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4HMUEXcuUxps/T8YphZD4XJVekk+cdZAglFdBCTqmpjbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // stage
+[8mha:////4Po07CH9a48vW8HIYije/v+oYSjgGO2FynikJRwVkDNHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiAkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD21FAanCAAAA[0m[Pipeline] stage
+[8mha:////4G+pLfbrzyjL3ddH19bRZMhGeHE4OBJyOivDN3z4vCcmAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (Clone Repository)
+[8mha:////4JrN4BmjAEkLVGmjC0k4QXZa3w21rkNQ03zzVWjp+GV8AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Practical Test/workspace
+[8mha:////4KsVsIxvpz7alCsUdmcH0yTa9Y8eoyKa61a7+9dVWWI6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4HOWoc6jhVloTbofEUJltK8XlZ2d1VJMBi1ofS4D6lIVAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] git
+The recommended git tool is: git
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/SelenaxPS/ICT2216_Practical
+ > git init /var/jenkins_home/workspace/Practical Test/workspace # timeout=10
+Fetching upstream changes from https://github.com/SelenaxPS/ICT2216_Practical
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/SelenaxPS/ICT2216_Practical +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/SelenaxPS/ICT2216_Practical # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision f74cbc54e4adadf200c6cd4bc2958f25de093f1a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f74cbc54e4adadf200c6cd4bc2958f25de093f1a # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b main f74cbc54e4adadf200c6cd4bc2958f25de093f1a # timeout=10
+Commit message: "[Update] Jenkins file"
+[8mha:////4N1jlZ5WKW2ChllhR7WIczbT+e5VPHYiHOpPxGfLS2keAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4NDF1U1SG96HrTMuRr+aZn9y7/8RJy5mO7XIr6E8LqCmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // dir
+[8mha:////4H79CeKKjiudhll2F9s8duLDXDk2tMUmjReGOmE8DmRiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN/oNdtq+AAAA[0m[Pipeline] }
+[8mha:////4HqM9n4rGZCyIqswfJL9w8d1c8NXXxSbxY4ta3DJauyfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaBBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw84NdtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4GewevSTtwoTSysvi3bwEgXIV6fcHqsASy37paQDc/YZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIKEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g1VjLVTwgAAAA==[0m[Pipeline] stage
+[8mha:////4GWf1H8Ax67adbfFP913XCem9O+nWwi3eIO8wGjW9a8tAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Setup Virtual Environment)
+[8mha:////4PUdQJdPFbhvtqPEgdmh4lUezRbADIPybIviiznmeSVcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Practical Test/workspace/webapp
+[8mha:////4I3wIG97qSK8/3gFhSoXcTx2nufj0HphKdjSUjGCVciZAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] {
+[8mha:////4PTBTUt4WWv7Igq73EAhHh+8f6bs9UNuX12LCH7R4tKOAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] sh
++ python3 -m venv venv
+/var/jenkins_home/workspace/Practical Test/workspace/webapp@tmp/durable-721a11b2/script.sh.copy: 1: python3: not found
+[8mha:////4FB3NZiNA1DXxxmjPEl5sP4ctqZNPNYc3OGy0/l7Hf19AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fKpbQQr4AAAA=[0m[Pipeline] }
+[8mha:////4FSZEaynQtUBOaqjkXRoc5EuFLJUTZOFDxxPn1JWsiPMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgSW0ii+AAAA[0m[Pipeline] // dir
+[8mha:////4Df2h2FCUOBZT129yRO7/NqpNSIIKNgaxBJTyaAn+8UiAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigSgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwARMxJg74AAAA=[0m[Pipeline] }
+[8mha:////4DrpMUgVrVruleVriCDXAe/U2c5urWw2nauXxQy4p4oLAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDfI7acr4AAAA=[0m[Pipeline] // stage
+[8mha:////4NTd+Pt9vxe+G6ddfHdhWQ2Das4nOYqlRvNlc0XdaRKWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqAMDYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlrsnW7D/P6g00NZQEwgAAAA==[0m[Pipeline] stage
+[8mha:////4NyjQcQE0RJCmEhau5RB4U73pkDtwF/Ljo9cOTN/5oHWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] { (Activate Virtual Environment and Install Dependencies)
+Stage "Activate Virtual Environment and Install Dependencies" skipped due to earlier failure(s)
+[8mha:////4JJ8Sp68ZSB3PsBq0UmQsdoWWS8dACIRW4LrXP95BXvfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] getContext
+[8mha:////4JhPA1RLdGvuvQQF6ckCb1DwpccKLZwpGJpIv8YgqsuHAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArmI/eL4AAAA=[0m[Pipeline] }
+[8mha:////4K/zfxXJ43zcjrMLZS71HDndi+Q95fnKL8fJ21qd7lSaAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAmqzcI74AAAA=[0m[Pipeline] // stage
+[8mha:////4LD3aNNxVP5pSaWrD62kFl6gYNJhI/WXQ0Oj6EN2z71PAAAAqB+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycohU/GyoE2vUhROEJoSk0XslSUknTsTVuAOBSkx4sGxL1vd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3u2z77edZvQEJmv6RwgAAAA==[0m[Pipeline] stage
+[8mha:////4Bm1g3XAouqJtjVbgKqJfgvgG6NwTwaGzGJ9uvzH6201AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] { (Integration Testing)
+Stage "Integration Testing" skipped due to earlier failure(s)
+[8mha:////4L0mpSyfLrNAoumP0Kxm5C/faqpDUGQKlgivWG2xWKsRAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] getContext
+[8mha:////4BMTMkZI6GxyYCGm50ghRo8BQJ2M1lqqtdn+9X9vMBDVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BlK8YfC+AAAA[0m[Pipeline] }
+[8mha:////4FC2Ocga4C2YLUmmMj1lWsSGFRpYj+AWr4bajfv2gpZ+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFq/vIBvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IuCan3zzm90JJzGRrQNZufxKjjwKs+lw4rBSnKshZd3AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCCQG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm+6CzPBwgAAAA==[0m[Pipeline] stage
+[8mha:////4NucEISkVEumqutkTih1gAowacrpUf7fgsO0CMhpGCU/AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] { (OWASP DependencyCheck)
+Stage "OWASP DependencyCheck" skipped due to earlier failure(s)
+[8mha:////4DaApxonD2B1c/dZgpqq+tU2GLC3DHtfAdsx9fhEnFz8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] getContext
+[8mha:////4FAnKmzt9lkRmnKQH/TiJ95+oVmKtZ3dq0AvTffP7TXoAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA3f8Jkb4AAAA=[0m[Pipeline] }
+[8mha:////4IgPeUBs7Lr2UuHSpqBUoyDKpQrph8age62wkKIOcQC9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] // stage
+[8mha:////4D6ZF1CVjY0dy3LYe64yMtv+B8opL9R64p9py8sD0JuVAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3u2z77edZvQG9kYk3wgAAAA==[0m[Pipeline] stage
+[8mha:////4CmMiQmstUK6fJdLxTAVdiOL3O4ZhEYw7Frot8JFDTVaAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6emXT7CAAAA[0m[Pipeline] { (Build Docker Image)
+Stage "Build Docker Image" skipped due to earlier failure(s)
+[8mha:////4MWHI5vHrzTgHqc98xVaCNnEo/dXJP0b/YMQy0U1k8J0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBiwS7Xe+AAAA[0m[Pipeline] getContext
+[8mha:////4DT6UwO6C8QyxwNCoSnE3LMaR1LHmARjDlj7vCPdJRzxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoFSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BqeGDU++AAAA[0m[Pipeline] }
+[8mha:////4CfPnh7+U3MiM7fh4Fx2/nZgxD/f3wC61ZXvnVuNgSNxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGfxJ6+vgAAAA==[0m[Pipeline] // stage
+[8mha:////4MudDfVfPXY2YCwze5oxnjrnc2ubGlmmjVNy4STiuVHqAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCCEG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbbv95Vm8OAERnwgAAAA==[0m[Pipeline] stage
+[8mha:////4JVtaE0tvkzlmUFA3g6aMOWhKacO7cH2tRAdQ5UomgpoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] { (Deploy Flask App)
+Stage "Deploy Flask App" skipped due to earlier failure(s)
+[8mha:////4JpPtQlZbb8wpneevq2ZEuny6MmIyNOclv3YDm7RhZO1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN5s4RMC+AAAA[0m[Pipeline] getContext
+[8mha:////4DlghQbz+g7BNHLz09p6t7FkMQLBm09e4yT+mvB+/KH9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCA0JCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8B1Pq5vgAAAA==[0m[Pipeline] }
+[8mha:////4IK4HvDlCKMouE6rOjvxlEttRmYHKw22oR68rjsZEwJWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCqBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw81GhnivgAAAA==[0m[Pipeline] // stage
+[8mha:////4C8x4IJyluQAegQ60qxJ7ODsSX9FkU/m2mtFfeSOuEo5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXbbz/P6g0gi2EGwgAAAA==[0m[Pipeline] stage
+[8mha:////4Knnqk1gdwRzuS+MfUbTDIOCDzspoWlvxszGIEREQzTwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4GJuS/ssZ10VQUQ9EtpJUSa3JyVjLdNEyRGVQRU6aA8/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5arJPu+AAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4GyeNFBpnFHNgPLLUMsWPQEh2WmfYMp2r47vlryRrQ2MAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDxdS/G/CAAAA[0m[Pipeline] script
+[8mha:////4DWq3lAEfijyqHwat0oxPDvJZ5MoqC5BKqp8Cb0lMUxCAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0ogtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+urdAcIAAAA=[0m[Pipeline] {
+[8mha:////4EvxStcG5pPBjHHv7XJx91fhHh1oIdJhTVWwn7inq3SKAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxcKxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4N8tcxgr4AAAA=[0m[Pipeline] echo
+Build failed, not deploying Flask app.
+[8mha:////4BTeITpv53iUXX1G45YQrZO1CDlWo0OH5v2chiSRj41qAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/Qi6NSbGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+AagoPJm+AAAA[0m[Pipeline] }
+[8mha:////4BcwPfue4Ka6fcitqjZfr35xbuIqOXfRRwMn0illaoGlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN7eqacu+AAAA[0m[Pipeline] // script
+[8mha:////4MkUuYwN7ywMmO3eunXcoaeyRif1PcYIQGOMpGN7/xFNAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChAQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330A/lVyo74AAAA=[0m[Pipeline] }
+[8mha:////4PUpY8oInXXndZgaFgHXB5tUgiVd1FwPnsJzOJUo+qoUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw/NtikfvgAAAA==[0m[Pipeline] // stage
+[8mha:////4MVvyNCAlMC8LxwAUbAVUdw71ThvtqHu7My0MvOed4GWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrm2+w8yYvuhvgAAAA==[0m[Pipeline] }
+[8mha:////4AibaLlcUERb9udcBO6BOqs4SdJSxg/dOJ2Bv0YgkcntAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rm2uw8BgaAdvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Dzn30SZ6MbO5JipvsLgPgwcck7ggdM/dOfbnmlBiNHAAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSEgUiCqtlYYXmNgYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHg72mwVLsLHo3mrxw4jBcHU/Y8wU7pshOY6unlpVuFmw5aVhSlLASsNHUOY6WTIKt6OVDVk6Sqc4p5O8ooLTqDk8oRDYnGdIX5gC726gi08/zVwCz9wnKwz5XXX8AA+Csmb4AAAA=[0m[Pipeline] }
+[8mha:////4Mk4s/vFUkdKSYTqbIlkF9u+n8TI8oyJz6JkPAElVzYgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBaJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rl22w8wA/clvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4PvAT+bKdD2aBx+ZVncE5DfIidCQr5yLKeFTR1uun/InAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPOD1ci70AAAA=[0m[Pipeline] }
+[8mha:////4EanZ3gBLVf+ZXxfhNe7OI6gEmlRqWTnf15NlRQTtN+lAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFhSOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCvCwF2f4DK4FYKL0AAAA=[0m[Pipeline] // node
+[8mha:////4LzHCKRQqd1JPbYIVTiEuBJI1BIYnCp2yYjGmRzAL9NnAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AGwmD929AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 127
+Finished: FAILURE

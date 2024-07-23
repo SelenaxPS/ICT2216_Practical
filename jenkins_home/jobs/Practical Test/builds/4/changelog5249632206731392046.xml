@@ -1,0 +1,10 @@
+commit 42bad76954fc6b3577be6b2fac55346270894992
+tree 7441d3085f94ef1337338815bea54e51a98fdf9b
+parent 2e50179a2177f49435119cdf92e11d427edb6cfd
+author SelenaxPS <peixshan@gmail.com> 2024-07-23 14:06:21 +0800
+committer SelenaxPS <peixshan@gmail.com> 2024-07-23 14:06:21 +0800
+
+    [Update] Jenkins file
+
+
+:100644 100644 faec9964740df62add0084b200eeadf83a5b0b86 ebd090df5eb6e386312fa5048641cc9907376a62 M	Jenkinsfile

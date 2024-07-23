@@ -1,0 +1,22 @@
+commit ac9b69bf8970ff48585a292250183b4cfb16356d
+tree afc9e14b10cffa5d9b45c1d89fd85f22351dd1e7
+parent d80fede166d979415a871764715dd49ec4e9b117
+author SelenaxPS <peixshan@gmail.com> 2024-07-23 14:31:05 +0800
+committer SelenaxPS <peixshan@gmail.com> 2024-07-23 14:31:05 +0800
+
+    [Update] Jenkins
+
+
+:100644 100644 33294102009668f6b72fd0e8ca9cd2c50041e8bd 14074787def0e54c2873299ea617e7c15906a885 M	Jenkinsfile
+commit d80fede166d979415a871764715dd49ec4e9b117
+tree d2911f87c9fff6a2438364607b52d3db4b92a0b9
+parent f74cbc54e4adadf200c6cd4bc2958f25de093f1a
+author SelenaxPS <peixshan@gmail.com> 2024-07-23 14:29:47 +0800
+committer SelenaxPS <peixshan@gmail.com> 2024-07-23 14:29:47 +0800
+
+    [Update] Jenkins
+
+
+:100644 100644 90803049ffc6f2eb126e7e666eaac4693a42a724 33294102009668f6b72fd0e8ca9cd2c50041e8bd M	Jenkinsfile
+:100644 100644 b8ac9fa9af158ff4decdf1cf75ad52957ce9f40d ae3f133b212757edfc09829efc2ade35bdee3391 M	docker-compose.yml
+:100644 100644 9894d090bcab3d67207f511a20e56945d591acf0 0542997d7f1c05883e5cb9be0ee28f0c0ed0026d M	jenkins/Dockerfile

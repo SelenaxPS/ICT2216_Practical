@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-07-23 06:32:26.229 UTC</timestamp>
+  <md5sum>40d645c7d25dfa7f51e7e32b3261bc32</md5sum>
+  <fileName>Credential id=NVD_API_KEY name=NVD_API_KEY</fileName>
+  <usages>
+    <entry>
+      <string>Practical Test</string>
+      <ranges>10-11,13-16</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

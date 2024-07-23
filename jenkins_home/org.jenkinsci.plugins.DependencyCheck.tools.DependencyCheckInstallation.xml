@@ -1,0 +1,18 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.DependencyCheck.tools.DependencyCheckInstallation_-DescriptorImpl plugin="dependency-check-jenkins-plugin@5.5.1">
+  <installations class="org.jenkinsci.plugins.DependencyCheck.tools.DependencyCheckInstallation-array">
+    <org.jenkinsci.plugins.DependencyCheck.tools.DependencyCheckInstallation>
+      <name>OWASP Dependency-Check Vulnerabilities</name>
+      <properties>
+        <hudson.tools.InstallSourceProperty>
+          <installers>
+            <hudson.tools.ZipExtractionInstaller>
+              <url>https://github.com/jeremylong/DependencyCheck/releases/download/v10.0.3/dependency-check-10.0.3-release.zip</url>
+              <subdir>/var/jenkins_home/tools/org.jenkinsci.plugins.DependencyCheck.tools.DependencyCheckInstallation/OWASP_Dependency-Check_Vulnerabilities/dependency-check</subdir>
+            </hudson.tools.ZipExtractionInstaller>
+          </installers>
+        </hudson.tools.InstallSourceProperty>
+      </properties>
+    </org.jenkinsci.plugins.DependencyCheck.tools.DependencyCheckInstallation>
+  </installations>
+</org.jenkinsci.plugins.DependencyCheck.tools.DependencyCheckInstallation_-DescriptorImpl>

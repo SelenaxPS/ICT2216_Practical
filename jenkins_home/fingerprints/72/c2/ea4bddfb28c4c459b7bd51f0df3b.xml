@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-07-23 06:42:03.200 UTC</timestamp>
+  <md5sum>72c2ea4bddfb28c4c459b7bd51f0df3b</md5sum>
+  <fileName>Credential id=SONARQUBE_KEY name=SONARQUBE_KEY</fileName>
+  <usages>
+    <entry>
+      <string>Practical Test</string>
+      <ranges>11,13-16</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

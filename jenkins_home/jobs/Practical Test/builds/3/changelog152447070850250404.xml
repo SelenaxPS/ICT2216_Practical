@@ -1,0 +1,10 @@
+commit 2e50179a2177f49435119cdf92e11d427edb6cfd
+tree e274dfe19c5667314b63d17a55d0dfe5702f6a91
+parent fa2f7484b81bf8f6a77cd25de1acd584a89d0eef
+author SelenaxPS <peixshan@gmail.com> 2024-07-23 14:02:29 +0800
+committer SelenaxPS <peixshan@gmail.com> 2024-07-23 14:02:29 +0800
+
+    [Update] Jenkins Dockerfile
+
+
+:100644 100644 9203effec5396510b4516f6fec6ea65da9f726a8 9894d090bcab3d67207f511a20e56945d591acf0 M	jenkins/Dockerfile

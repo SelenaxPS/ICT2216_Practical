@@ -1,0 +1,604 @@
+Started by user unknown or anonymous
+Obtained Jenkinsfile from git https://github.com/SelenaxPS/ICT2216_Practical
+[8mha:////4MVZFM5aDQ1uhC70wCxAt293Mwjz50pQPIa4oJogjbw2AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4EOQRH4udfqq+qu7U5R0Rt9vWPGmfBCIgfXUPSTIUt1MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4JujYsucw8Zc4LpdapzTJKhUPIm1oG5yO7q7ZSEXde4DAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/Practical Test
+[8mha:////4JR/Z6XQvWUgScUYZgFNGGXjM4Ms+6NbUxh3XXbrE9WiAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4I7D6skW7bDF3X47TW91QGsj2w5glyqIeHiCLUJ9LDUlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4P/mFS2dlaz7A2JU9MIwTiXQ9Dpc0o+syMc0m+Fu1MADAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Ibq95CfKlnQCTigCEpfG3Llo3WsQiu2DoFQGAqWGD5TAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Practical Test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/SelenaxPS/ICT2216_Practical # timeout=10
+Fetching upstream changes from https://github.com/SelenaxPS/ICT2216_Practical
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/SelenaxPS/ICT2216_Practical +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ac9b69bf8970ff48585a292250183b4cfb16356d (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ac9b69bf8970ff48585a292250183b4cfb16356d # timeout=10
+Commit message: "[Update] Jenkins"
+ > git rev-list --no-walk ac9b69bf8970ff48585a292250183b4cfb16356d # timeout=10
+[8mha:////4JYeS6NYSXJBZBvM0cALn+gZOw2zw8eA5Mutp+GP6ALkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4BXfMmc2LAkT/Fe6ANGSjC1JjDbaBVhdcPHiou8j/7fiAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4O4/IvJTIQY23WLNIFo39MevNye+rkrN7I5vGZ9H9VNCAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4Nf8/p0a1PML8+LWB+6V0HoSii5U52iE1lPpzjzqH+6oAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4Gww2aJoSu3d6elRSEzHoYTT0iA2GLqXZgo4MqeilxCnAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] tool
+[8mha:////4C2UZK/ubqiFjLkwrIrIHQwW+VxoA+tQ3Rb+SYYmlACFAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFSNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPyt/2UMIAAAA=[0m[Pipeline] withEnv
+[8mha:////4CNk8naVcjkN2QMaM0BulYf5JqjGi8oYeFDcxq2lYBO5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] {
+[8mha:////4OP/Wrp8FAbEbmqBtZzUobda4HKofAVwumrmYco8BDlOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] stage
+[8mha:////4F/suoOrWauhW8SNTzRojizjQTr0BPUzHuXuoNsXHwC3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Check Docker)
+[8mha:////4JZI0lHrU5TIBcF57Wk2Sa0hVM/o1ijDpsIds3hcXK2hAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ docker --version
+Docker version 20.10.24+dfsg1, build 297e128
+[8mha:////4Ftb1pssOUO2LxDTaTyKfJ+3IYr0AmTFtXUe0JSI/HJUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
+[8mha:////4J1qSkR2L2s0JjQSccEO7fj9GrqxgNpAApelmqnOjOsEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DQfO8MHWofrzbiuNHGjhBYySuZweugLZ37HBpCKVl2vAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUEBvqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7sb3ZbCAAAA[0m[Pipeline] stage
+[8mha:////4JrN4BmjAEkLVGmjC0k4QXZa3w21rkNQ03zzVWjp+GV8AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Clone Repository)
+[8mha:////4KsVsIxvpz7alCsUdmcH0yTa9Y8eoyKa61a7+9dVWWI6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Practical Test/workspace
+[8mha:////4BQYwwY8wE8unCJksQTMcOpvKM0+Wwu6laU4m3Uun8SeAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4M1C6KvuhUgVLSClKxefenU009oH7TtedY2jJxAI33qNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] git
+The recommended git tool is: git
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Practical Test/workspace/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/SelenaxPS/ICT2216_Practical # timeout=10
+Fetching upstream changes from https://github.com/SelenaxPS/ICT2216_Practical
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/SelenaxPS/ICT2216_Practical +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ac9b69bf8970ff48585a292250183b4cfb16356d (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ac9b69bf8970ff48585a292250183b4cfb16356d # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main ac9b69bf8970ff48585a292250183b4cfb16356d # timeout=10
+Commit message: "[Update] Jenkins"
+[8mha:////4Ll9pOUUyNyZYEb1zx2K+8V1QetWbCrrpnqT99S5CkG3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4BEsCH8tQnetAppB1dsD/bpgxaPG8zhMcaEk4CvM5+YXAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // dir
+[8mha:////4A8+yGfLznk7qb1KdBn5WFr1+Gh3TN1eIFOB7jV/aZNOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8nuLWa+AAAA[0m[Pipeline] }
+[8mha:////4BNhiBNyDDtAIm1JEvZOZsf3SDX+QowmEZX+cCArS9fSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN4psfOC+AAAA[0m[Pipeline] // stage
+[8mha:////4Dd4tbhLjhOdSToj7uO34OTNSDS5FkDYA0JY+F9CMB4VAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIBaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g1zStKxwgAAAA==[0m[Pipeline] stage
+[8mha:////4PUdQJdPFbhvtqPEgdmh4lUezRbADIPybIviiznmeSVcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] { (Setup Virtual Environment)
+[8mha:////4I3wIG97qSK8/3gFhSoXcTx2nufj0HphKdjSUjGCVciZAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Practical Test/workspace/webapp
+[8mha:////4JwjPr+p2Q66NymZ4lm5oWX/AOQHYpe52w341FHlW6fMAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] {
+[8mha:////4GC4EX/svCmvFL1AE+he7b/1hNG7SJyTz/WKZsjzdEcrAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ python3 -m venv venv
+[8mha:////4JluornHW1wGy1jJnmIcT3vI5nC4OtSLA7BIyw7aD6f7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4DwPDH3+GWG5GsmOANBRqiu1qNYGc8sLm5TWvTsf4TBfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // dir
+[8mha:////4HHf6hC3MbX0TRl7xadfKqAUOtcaeFegjl1h7l6fLJxcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEPNxplvgAAAA==[0m[Pipeline] }
+[8mha:////4IlNrH367qd1eugsDhujVVT7td7IQS2LkA1ox9yRIaECAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAT22Bzr4AAAA=[0m[Pipeline] // stage
+[8mha:////4CanoJGYZJUGvYItfbLyKIoQcX2EexttAX/xYvfy3n9zAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCAYk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm9ikvncwgAAAA==[0m[Pipeline] stage
+[8mha:////4IKdaR767dUWzbmTO/xdBNzoYd939VWvT+iff1KaV7tkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] { (Activate Virtual Environment and Install Dependencies)
+[8mha:////4Pl5gHHMt0DCw9uA9rkE0EDmXQFl5keWeOzL5AHIltftAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Practical Test/workspace/webapp
+[8mha:////4OFZghkKHdVzsXPZzPiBof09LCoHUsGSWnZ8E4R+h6UMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] {
+[8mha:////4IxLB9VpLA/Mu5OTJ0PjfddDBzv+q2sOZ316FGdzgLk2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBirOQHu+AAAA[0m[Pipeline] sh
++ set +e
++ source venv/bin/activate
+/var/jenkins_home/workspace/Practical Test/workspace/webapp@tmp/durable-95871f7b/script.sh.copy: 4: source: not found
++ pip install -r requirements.txt
+Requirement already satisfied: Flask==2.0.2 in ./venv/lib/python3.11/site-packages (from -r requirements.txt (line 1)) (2.0.2)
+Requirement already satisfied: Werkzeug==2.0.2 in ./venv/lib/python3.11/site-packages (from -r requirements.txt (line 2)) (2.0.2)
+Requirement already satisfied: requests in ./venv/lib/python3.11/site-packages (from -r requirements.txt (line 3)) (2.32.3)
+Requirement already satisfied: pytest==7.0.1 in ./venv/lib/python3.11/site-packages (from -r requirements.txt (line 4)) (7.0.1)
+Requirement already satisfied: flask-wtf in ./venv/lib/python3.11/site-packages (from -r requirements.txt (line 5)) (1.2.1)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.11/site-packages (from Flask==2.0.2->-r requirements.txt (line 1)) (3.1.4)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.11/site-packages (from Flask==2.0.2->-r requirements.txt (line 1)) (2.2.0)
+Requirement already satisfied: click>=7.1.2 in ./venv/lib/python3.11/site-packages (from Flask==2.0.2->-r requirements.txt (line 1)) (8.1.7)
+Requirement already satisfied: attrs>=19.2.0 in ./venv/lib/python3.11/site-packages (from pytest==7.0.1->-r requirements.txt (line 4)) (23.2.0)
+Requirement already satisfied: iniconfig in ./venv/lib/python3.11/site-packages (from pytest==7.0.1->-r requirements.txt (line 4)) (2.0.0)
+Requirement already satisfied: packaging in ./venv/lib/python3.11/site-packages (from pytest==7.0.1->-r requirements.txt (line 4)) (24.1)
+Requirement already satisfied: pluggy<2.0,>=0.12 in ./venv/lib/python3.11/site-packages (from pytest==7.0.1->-r requirements.txt (line 4)) (1.5.0)
+Requirement already satisfied: py>=1.8.2 in ./venv/lib/python3.11/site-packages (from pytest==7.0.1->-r requirements.txt (line 4)) (1.11.0)
+Requirement already satisfied: tomli>=1.0.0 in ./venv/lib/python3.11/site-packages (from pytest==7.0.1->-r requirements.txt (line 4)) (2.0.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./venv/lib/python3.11/site-packages (from requests->-r requirements.txt (line 3)) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.11/site-packages (from requests->-r requirements.txt (line 3)) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.11/site-packages (from requests->-r requirements.txt (line 3)) (2.2.2)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.11/site-packages (from requests->-r requirements.txt (line 3)) (2024.7.4)
+Requirement already satisfied: wtforms in ./venv/lib/python3.11/site-packages (from flask-wtf->-r requirements.txt (line 5)) (3.1.2)
+Requirement already satisfied: MarkupSafe>=2.0 in ./venv/lib/python3.11/site-packages (from Jinja2>=3.0->Flask==2.0.2->-r requirements.txt (line 1)) (2.1.5)
++ set -e
+[8mha:////4Ka07nip9R6vRFhbKythRZ993BpcagHYjTnVA/Ab9SGtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BmM+Nsi+AAAA[0m[Pipeline] }
+[8mha:////4CwzjqCRxcrk8tLtk6LdqMZk3Q99xdnFTlIE8Z3vK55XAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCkQ5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fTT40or4AAAA=[0m[Pipeline] // dir
+[8mha:////4DhxW+hW6ThlqsJudT3MoOZgUtDrh7/hoGJO+S9vXz0IAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+Lw/VfvgAAAA==[0m[Pipeline] }
+[8mha:////4HPi54BD8xwNWUuY8un4JOWX70LEssH3F7SuB3rhNQzMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAs4Fmrr4AAAA=[0m[Pipeline] // stage
+[8mha:////4DSGcDPnVqb5C7sNS0tv3SWpSs3F86zgou/pCzHhdZRPAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSJUYEFPXKAsnCEkIaaP/S5LSTpyIq3EHApWY8GDZlqz3fEEVAxwpWNYZ7B1G5djgR5sTmyj0F08T6+jMFGEkb5gwkyBt2qUKSgYWFSWsOKwNKk/RoU2w4Z28y9pLtPUphbwdOJRO3+ABBc/kJEP6ljnA9jrqSPjj/AXAPCQod022Zv95Vm85HgjowgAAAA==[0m[Pipeline] stage
+[8mha:////4NucEISkVEumqutkTih1gAowacrpUf7fgsO0CMhpGCU/AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] { (Integration Testing)
+[8mha:////4HH9u7iMlbORejgE77WgA6cA6iCANGvErwWHBp0rQXuIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Practical Test/workspace/webapp
+[8mha:////4DO22rLMC3EmPubgIBPCbFaLh/BojrI5JXZwW8l3uh/eAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] {
+[8mha:////4FsxkaLBHnTltbtKly/X84yw/Us8BNAVNsWX92soOtldAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvT8cju+AAAA[0m[Pipeline] sh
++ set +e
++ source venv/bin/activate
+/var/jenkins_home/workspace/Practical Test/workspace/webapp@tmp/durable-67a68c24/script.sh.copy: 4: source: not found
++ pytest --junitxml=integration-test-results.xml
+============================= test session starts ==============================
+platform linux -- Python 3.11.2, pytest-7.0.1, pluggy-1.5.0
+rootdir: /var/jenkins_home/workspace/Practical Test/workspace/webapp
+collected 0 items
+
+- generated xml file: /var/jenkins_home/workspace/Practical Test/workspace/webapp/integration-test-results.xml -
+============================ no tests ran in 0.00s =============================
++ set -e
+[8mha:////4JY+ZXjH2F6fKPWowOHRNPfkVT/Ocsn4yWuJvfWtnIz3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN6XnAcu+AAAA[0m[Pipeline] }
+[8mha:////4A4qW96VG35sfhqSne5aQ2FYIWo+Enu2kzZpbPs/61I7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/lvZpgvgAAAA==[0m[Pipeline] // dir
+[8mha:////4IbfC6Ovm+fXR9L79+wohfOdoxbJar2qkI+11T5f+x8bAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBAkJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw/LvZgKvgAAAA==[0m[Pipeline] }
+[8mha:////4JStmsPS5c6/GXaRSwDUcKapKr1lEXgOj9WAoV5Dn6Q+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpiCgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AH/c3tRvgAAAA==[0m[Pipeline] // stage
+[8mha:////4H4VpWhALGXWCTmKTRUw+SEUa1uXv0f2YlIn+Ptm0AHUAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSMCCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wbb7T/P6g0oxiOFwgAAAA==[0m[Pipeline] stage
+[8mha:////4BqB69I6vighJBcXjy73O2LS0md/QFTxGfYVRQ6yJl9SAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] { (OWASP DependencyCheck)
+[8mha:////4JVtaE0tvkzlmUFA3g6aMOWhKacO7cH2tRAdQ5UomgpoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $NVD_API_KEY
+[8mha:////4A3GTxpI/H4l2Z+ek3zYuajgSW5j8GlEkGRO06/k7bVOAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] {
+[8mha:////4JvowsAoOXYIeiNHqUwdhhJ0T4Iz9cO+zH2pq6LOHOswAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/Nre1vgAAAA==[0m[Pipeline] dependencyCheck
+Warning: A secret was passed to "dependencyCheck" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [NVD_API_KEY]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
+[INFO] Checking for updates
+[INFO] NVD API has 257,823 records in this update
+[INFO] Downloaded 10,000/257,823 (4%)
+[INFO] Downloaded 20,000/257,823 (8%)
+[INFO] Downloaded 30,000/257,823 (12%)
+[INFO] Downloaded 40,000/257,823 (16%)
+[INFO] Downloaded 50,000/257,823 (19%)
+[INFO] Downloaded 60,000/257,823 (23%)
+[INFO] Downloaded 70,000/257,823 (27%)
+[INFO] Downloaded 80,000/257,823 (31%)
+[INFO] Downloaded 90,000/257,823 (35%)
+[INFO] Downloaded 100,000/257,823 (39%)
+[INFO] Downloaded 110,000/257,823 (43%)
+[INFO] Downloaded 120,000/257,823 (47%)
+[INFO] Downloaded 130,000/257,823 (50%)
+[INFO] Downloaded 140,000/257,823 (54%)
+[INFO] Downloaded 150,000/257,823 (58%)
+[INFO] Downloaded 160,000/257,823 (62%)
+[INFO] Downloaded 170,000/257,823 (66%)
+[INFO] Downloaded 180,000/257,823 (70%)
+[INFO] Downloaded 190,000/257,823 (74%)
+[INFO] Downloaded 200,000/257,823 (78%)
+[INFO] Downloaded 210,000/257,823 (81%)
+[INFO] Downloaded 220,000/257,823 (85%)
+[INFO] Downloaded 230,000/257,823 (89%)
+[INFO] Downloaded 240,000/257,823 (93%)
+[INFO] Downloaded 250,000/257,823 (97%)
+[INFO] Downloaded 257,823/257,823 (100%)
+[INFO] Completed processing batch 1/129 (1%) in 1,710ms
+[INFO] Completed processing batch 2/129 (2%) in 5,710ms
+[INFO] Completed processing batch 3/129 (2%) in 5,638ms
+[INFO] Completed processing batch 4/129 (3%) in 5,593ms
+[INFO] Completed processing batch 5/129 (4%) in 6,099ms
+[INFO] Completed processing batch 6/129 (5%) in 4,614ms
+[INFO] Completed processing batch 7/129 (5%) in 4,633ms
+[INFO] Completed processing batch 8/129 (6%) in 4,239ms
+[INFO] Completed processing batch 9/129 (7%) in 2,987ms
+[INFO] Completed processing batch 10/129 (8%) in 2,642ms
+[INFO] Completed processing batch 11/129 (9%) in 2,487ms
+[INFO] Completed processing batch 12/129 (9%) in 2,392ms
+[INFO] Completed processing batch 13/129 (10%) in 3,827ms
+[INFO] Completed processing batch 14/129 (11%) in 4,558ms
+[INFO] Completed processing batch 15/129 (12%) in 5,113ms
+[INFO] Completed processing batch 16/129 (12%) in 4,041ms
+[INFO] Completed processing batch 17/129 (13%) in 3,006ms
+[INFO] Completed processing batch 18/129 (14%) in 3,670ms
+[INFO] Completed processing batch 19/129 (15%) in 3,600ms
+[INFO] Completed processing batch 20/129 (16%) in 3,797ms
+[INFO] Completed processing batch 21/129 (16%) in 4,591ms
+[INFO] Completed processing batch 22/129 (17%) in 4,179ms
+[INFO] Completed processing batch 23/129 (18%) in 4,311ms
+[INFO] Completed processing batch 24/129 (19%) in 3,110ms
+[INFO] Completed processing batch 25/129 (19%) in 4,679ms
+[INFO] Completed processing batch 26/129 (20%) in 3,697ms
+[INFO] Completed processing batch 27/129 (21%) in 4,958ms
+[INFO] Completed processing batch 28/129 (22%) in 6,763ms
+[INFO] Completed processing batch 29/129 (22%) in 3,340ms
+[INFO] Completed processing batch 30/129 (23%) in 7,691ms
+[INFO] Completed processing batch 31/129 (24%) in 4,696ms
+[INFO] Completed processing batch 32/129 (25%) in 6,526ms
+[INFO] Completed processing batch 33/129 (26%) in 9,540ms
+[INFO] Completed processing batch 34/129 (26%) in 4,361ms
+[INFO] Completed processing batch 35/129 (27%) in 3,387ms
+[INFO] Completed processing batch 36/129 (28%) in 8,185ms
+[INFO] Completed processing batch 37/129 (29%) in 8,080ms
+[INFO] Completed processing batch 38/129 (29%) in 6,246ms
+[INFO] Completed processing batch 39/129 (30%) in 6,177ms
+[INFO] Completed processing batch 40/129 (31%) in 3,435ms
+[INFO] Completed processing batch 41/129 (32%) in 2,548ms
+[INFO] Completed processing batch 42/129 (33%) in 3,796ms
+[INFO] Completed processing batch 43/129 (33%) in 2,702ms
+[INFO] Completed processing batch 44/129 (34%) in 1,280ms
+[INFO] Completed processing batch 45/129 (35%) in 23,810ms
+[INFO] Completed processing batch 46/129 (36%) in 25,234ms
+[INFO] Completed processing batch 47/129 (36%) in 20,322ms
+[INFO] Completed processing batch 48/129 (37%) in 19,939ms
+[INFO] Completed processing batch 49/129 (38%) in 5,032ms
+[INFO] Completed processing batch 50/129 (39%) in 3,930ms
+[INFO] Completed processing batch 51/129 (40%) in 2,384ms
+[INFO] Completed processing batch 52/129 (40%) in 1,620ms
+[INFO] Completed processing batch 53/129 (41%) in 1,985ms
+[INFO] Completed processing batch 54/129 (42%) in 2,381ms
+[INFO] Completed processing batch 55/129 (43%) in 1,971ms
+[INFO] Completed processing batch 56/129 (43%) in 1,785ms
+[INFO] Completed processing batch 57/129 (44%) in 2,972ms
+[INFO] Completed processing batch 58/129 (45%) in 2,896ms
+[INFO] Completed processing batch 59/129 (46%) in 2,209ms
+[INFO] Completed processing batch 60/129 (47%) in 1,969ms
+[INFO] Completed processing batch 61/129 (47%) in 2,587ms
+[INFO] Completed processing batch 62/129 (48%) in 2,818ms
+[INFO] Completed processing batch 63/129 (49%) in 2,406ms
+[INFO] Completed processing batch 64/129 (50%) in 1,787ms
+[INFO] Completed processing batch 65/129 (50%) in 1,286ms
+[INFO] Completed processing batch 66/129 (51%) in 1,195ms
+[INFO] Completed processing batch 67/129 (52%) in 2,458ms
+[INFO] Completed processing batch 68/129 (53%) in 2,050ms
+[INFO] Completed processing batch 69/129 (53%) in 1,494ms
+[INFO] Completed processing batch 70/129 (54%) in 1,766ms
+[INFO] Completed processing batch 71/129 (55%) in 1,814ms
+[INFO] Completed processing batch 72/129 (56%) in 1,794ms
+[INFO] Completed processing batch 73/129 (57%) in 1,844ms
+[INFO] Completed processing batch 74/129 (57%) in 1,859ms
+[INFO] Completed processing batch 75/129 (58%) in 2,314ms
+[INFO] Completed processing batch 76/129 (59%) in 2,355ms
+[INFO] Completed processing batch 77/129 (60%) in 1,215ms
+[INFO] Completed processing batch 78/129 (60%) in 1,034ms
+[INFO] Completed processing batch 79/129 (61%) in 709ms
+[INFO] Completed processing batch 80/129 (62%) in 592ms
+[INFO] Completed processing batch 81/129 (63%) in 734ms
+[INFO] Completed processing batch 82/129 (64%) in 700ms
+[INFO] Completed processing batch 83/129 (64%) in 355ms
+[INFO] Completed processing batch 84/129 (65%) in 570ms
+[INFO] Completed processing batch 85/129 (66%) in 664ms
+[INFO] Completed processing batch 86/129 (67%) in 3,971ms
+[INFO] Completed processing batch 87/129 (67%) in 4,312ms
+[INFO] Completed processing batch 88/129 (68%) in 751ms
+[INFO] Completed processing batch 89/129 (69%) in 897ms
+[INFO] Completed processing batch 90/129 (70%) in 680ms
+[INFO] Completed processing batch 91/129 (71%) in 1,127ms
+[INFO] Completed processing batch 92/129 (71%) in 649ms
+[INFO] Completed processing batch 93/129 (72%) in 929ms
+[INFO] Completed processing batch 94/129 (73%) in 831ms
+[INFO] Completed processing batch 95/129 (74%) in 819ms
+[INFO] Completed processing batch 96/129 (74%) in 720ms
+[INFO] Completed processing batch 97/129 (75%) in 545ms
+[INFO] Completed processing batch 98/129 (76%) in 905ms
+[INFO] Completed processing batch 99/129 (77%) in 641ms
+[INFO] Completed processing batch 100/129 (78%) in 771ms
+[INFO] Completed processing batch 101/129 (78%) in 571ms
+[INFO] Completed processing batch 102/129 (79%) in 991ms
+[INFO] Completed processing batch 103/129 (80%) in 711ms
+[INFO] Completed processing batch 104/129 (81%) in 675ms
+[INFO] Completed processing batch 105/129 (81%) in 10,787ms
+[INFO] Completed processing batch 106/129 (82%) in 11,163ms
+[INFO] Completed processing batch 107/129 (83%) in 10,250ms
+[INFO] Completed processing batch 108/129 (84%) in 7,719ms
+[INFO] Completed processing batch 109/129 (84%) in 6,766ms
+[INFO] Completed processing batch 110/129 (85%) in 5,779ms
+[INFO] Completed processing batch 111/129 (86%) in 5,126ms
+[INFO] Completed processing batch 112/129 (87%) in 90ms
+[INFO] Completed processing batch 113/129 (88%) in 2,444ms
+[INFO] Completed processing batch 114/129 (88%) in 1,045ms
+[INFO] Completed processing batch 115/129 (89%) in 1,156ms
+[INFO] Completed processing batch 116/129 (90%) in 150ms
+[INFO] Completed processing batch 117/129 (91%) in 116ms
+[INFO] Completed processing batch 118/129 (91%) in 21,267ms
+[INFO] Completed processing batch 119/129 (92%) in 19,336ms
+[INFO] Completed processing batch 120/129 (93%) in 17,694ms
+[INFO] Completed processing batch 121/129 (94%) in 16,647ms
+[INFO] Completed processing batch 122/129 (95%) in 11,837ms
+[INFO] Completed processing batch 123/129 (95%) in 11,040ms
+[INFO] Completed processing batch 124/129 (96%) in 11,102ms
+[INFO] Completed processing batch 125/129 (97%) in 9,373ms
+[INFO] Completed processing batch 126/129 (98%) in 6,357ms
+[INFO] Completed processing batch 127/129 (98%) in 3,965ms
+[INFO] Completed processing batch 128/129 (99%) in 2,762ms
+[INFO] Completed processing batch 129/129 (100%) in 287ms
+[INFO] Updating CISA Known Exploited Vulnerability list: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+[INFO] Begin database defrag
+[INFO] End database defrag (3743 ms)
+[INFO] Check for updates complete (231142 ms)
+[INFO] 
+
+Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user's risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
+
+
+   About ODC: https://jeremylong.github.io/DependencyCheck/general/internals.html
+   False Positives: https://jeremylong.github.io/DependencyCheck/general/suppression.html
+
+💖 Sponsor: https://github.com/sponsors/jeremylong
+
+
+[INFO] Analysis Started
+[INFO] Finished Archive Analyzer (0 seconds)
+[INFO] Finished File Name Analyzer (0 seconds)
+[INFO] Finished Jar Analyzer (0 seconds)
+[INFO] Finished Central Analyzer (59 seconds)
+[ERROR] ----------------------------------------------------
+[ERROR] .NET Assembly Analyzer could not be initialized and at least one 'exe' or 'dll' was scanned. The 'dotnet' executable could not be found on the path; either disable the Assembly Analyzer or add the path to dotnet core in the configuration.
+[ERROR] The dotnet 8.0 core runtime or SDK is required to analyze assemblies
+[ERROR] ----------------------------------------------------
+[INFO] Finished Dependency Merging Analyzer (0 seconds)
+[INFO] Finished Hint Analyzer (0 seconds)
+[INFO] Finished Version Filter Analyzer (0 seconds)
+[INFO] Created CPE Index (1 seconds)
+[INFO] Finished CPE Analyzer (3 seconds)
+[INFO] Finished False Positive Analyzer (0 seconds)
+[INFO] Finished NVD CVE Analyzer (0 seconds)
+[INFO] Finished RetireJS Analyzer (3 seconds)
+[INFO] Finished Sonatype OSS Index Analyzer (3 seconds)
+[INFO] Finished Vulnerability Suppression Analyzer (0 seconds)
+[INFO] Finished Known Exploited Vulnerability Analyzer (0 seconds)
+[INFO] Finished Dependency Bundling Analyzer (0 seconds)
+[INFO] Finished Unused Suppression Rule Analyzer (0 seconds)
+[INFO] Analysis Complete (72 seconds)
+[INFO] Writing XML report to: /var/jenkins_home/workspace/Practical Test/./dependency-check-report.xml
+[INFO] Writing HTML report to: /var/jenkins_home/workspace/Practical Test/./dependency-check-report.html
+[INFO] Writing JSON report to: /var/jenkins_home/workspace/Practical Test/./dependency-check-report.json
+[INFO] Writing CSV report to: /var/jenkins_home/workspace/Practical Test/./dependency-check-report.csv
+[INFO] Writing SARIF report to: /var/jenkins_home/workspace/Practical Test/./dependency-check-report.sarif
+[INFO] Writing JENKINS report to: /var/jenkins_home/workspace/Practical Test/./dependency-check-jenkins.html
+[INFO] Writing JUNIT report to: /var/jenkins_home/workspace/Practical Test/./dependency-check-junit.xml
+[INFO] Writing GITLAB report to: /var/jenkins_home/workspace/Practical Test/./dependency-check-gitlab.json
+[8mha:////4NcwrlEP0SrOka+gjwv8hA07pIwjBgYY2O/K1t/aPR2BAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAfgesrL4AAAA=[0m[Pipeline] dependencyCheckPublisher
+Collecting Dependency-Check artifact
+Parsing file /var/jenkins_home/workspace/Practical Test/dependency-check-report.xml
+[8mha:////4EE6dtXlKr81LqQLJ6rKCe9dEotLyfg0DyHWa325IzN/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYGEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDnEU1g74AAAA=[0m[Pipeline] }
+[8mha:////4NjRxXqmg5BTvLuFA01bh2awbWZhk3SRnP/B6TBcueurAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAr6ZuP74AAAA=[0m[Pipeline] // withCredentials
+[8mha:////4Em+MjP9sLKY3t6kDSrdfj9OSGCCiFYl16QG+O2VtzeZAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLT8ClQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+Gi9SyvgAAAA==[0m[Pipeline] }
+[8mha:////4Mzw035gqoh/72EammTYqstvUU6zkoDgzX86WTdeWzNSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpkgZR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB7Vojw6+AAAA[0m[Pipeline] // stage
+[8mha:////4IsCZWY+LwZO789HWt9r46Yh+aAYGWPb3l2iNyEydN/uAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSKgLYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g213Mu0wgAAAA==[0m[Pipeline] stage
+[8mha:////4BsnfJkrKU7EvQt4kWR06AZtr9UaSTCI2JZyPElJrU4BAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KwNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPXl9jU8IAAAA=[0m[Pipeline] { (SonarQube Analysis)
+[8mha:////4IHDXsQOdLED+0UFf5dha06OMxQ8pRUP9gmoronG9BAUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: SonarQube
+[8mha:////4AqZBtCr6fW1o47NMoFw40cjHRkDLjhN3lAoTsGZbVGaAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASgVHzvCAAAA[0m[Pipeline] {
+[8mha:////4M/aZmeo2Jj3HQZPn3/AWKbO1iSiLnl72oFYhID8KaCCAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUCYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGUkOl7wgAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $SONARQUBE_TOKEN
+[8mha:////4HXO1+UBj+5Os0wwdmWS97LB2/OdRCWYJtD+/6qZfnD+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] {
+[8mha:////4HCcc8qH6aA/UaYutGzR4DizmF3NnqfUMoAcm2c6zmNtAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7WcRxfCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Practical Test/workspace/flask
+[8mha:////4BVpTtnURZlkZH9nS4wmgcb9X12uA9qbjlEfHQR8dGvlAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] {
+[8mha:////4EmsQSxoiJiVb7y5XTA1aPZMLEVmBq1oeWEnoobrbW9rAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAE/wUw2vgAAAA==[0m[Pipeline] sh
++ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/bin/sonar-scanner -Dsonar.projectKey=flask-app -Dsonar.sources=. -Dsonar.inclusions=app.py -Dsonar.host.url=http://sonarqube:9000 -Dsonar.login=****
+06:42:03.842 INFO  Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/conf/sonar-scanner.properties
+06:42:03.846 INFO  Project root configuration file: NONE
+06:42:03.876 INFO  SonarScanner CLI 6.1.0.4477
+06:42:03.878 INFO  Java 17.0.11 Eclipse Adoptium (64-bit)
+06:42:03.879 INFO  Linux 5.15.146.1-microsoft-standard-WSL2 amd64
+06:42:03.912 INFO  User cache: /root/.sonar/cache
+06:42:04.898 INFO  Communicating with SonarQube Server 9.9.6.92038
+06:42:05.321 INFO  Load global settings
+06:42:05.389 INFO  Load global settings (done) | time=68ms
+06:42:05.391 INFO  Server id: 147B411E-AZDeQw2KkmHU0dzOyOAU
+06:42:05.396 INFO  User cache: /root/.sonar/cache
+06:42:05.399 INFO  Load/download plugins
+06:42:05.400 INFO  Load plugins index
+06:42:05.453 INFO  Load plugins index (done) | time=53ms
+06:42:06.405 INFO  Load/download plugins (done) | time=1006ms
+06:42:06.809 INFO  Process project properties
+06:42:06.815 INFO  Process project properties (done) | time=6ms
+06:42:06.817 INFO  Execute project builders
+06:42:06.818 INFO  Execute project builders (done) | time=1ms
+06:42:06.823 INFO  Project key: flask-app
+06:42:06.823 INFO  Base dir: /var/jenkins_home/workspace/Practical Test/workspace/flask
+06:42:06.823 INFO  Working dir: /var/jenkins_home/workspace/Practical Test/workspace/flask/.scannerwork
+06:42:06.831 INFO  Load project settings for component key: 'flask-app'
+06:42:06.978 INFO  Auto-configuring with CI 'Jenkins'
+06:42:06.986 INFO  Load quality profiles
+06:42:07.135 INFO  Load quality profiles (done) | time=149ms
+06:42:07.141 INFO  Load active rules
+06:42:09.077 INFO  Load active rules (done) | time=1936ms
+06:42:09.085 INFO  Load analysis cache
+06:42:09.092 INFO  Load analysis cache (404) | time=7ms
+06:42:09.127 INFO  Load project repositories
+06:42:09.134 INFO  Load project repositories (done) | time=7ms
+06:42:09.156 INFO  Indexing files...
+06:42:09.156 INFO  Project configuration:
+06:42:09.157 INFO    Included sources: app.py
+06:42:09.235 INFO  0 files indexed
+06:42:09.235 INFO  0 files ignored because of inclusion/exclusion patterns
+06:42:09.235 INFO  0 files ignored because of scm ignore settings
+06:42:09.236 INFO  ------------- Run sensors on module flask-app
+06:42:09.318 INFO  Load metrics repository
+06:42:09.346 INFO  Load metrics repository (done) | time=28ms
+06:42:10.758 INFO  Sensor JaCoCo XML Report Importer [jacoco]
+06:42:10.759 INFO  'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+06:42:10.759 INFO  No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+06:42:10.759 INFO  Sensor JaCoCo XML Report Importer [jacoco] (done) | time=1ms
+06:42:10.760 INFO  Sensor CSS Rules [javascript]
+06:42:10.760 INFO  No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+06:42:10.760 INFO  Sensor CSS Rules [javascript] (done) | time=0ms
+06:42:10.760 INFO  Sensor C# Project Type Information [csharp]
+06:42:10.761 INFO  Sensor C# Project Type Information [csharp] (done) | time=1ms
+06:42:10.761 INFO  Sensor C# Analysis Log [csharp]
+06:42:10.775 INFO  Sensor C# Analysis Log [csharp] (done) | time=14ms
+06:42:10.776 INFO  Sensor C# Properties [csharp]
+06:42:10.776 INFO  Sensor C# Properties [csharp] (done) | time=0ms
+06:42:10.776 INFO  Sensor TextAndSecretsSensor [text]
+06:42:10.783 INFO  Sensor TextAndSecretsSensor [text] (done) | time=7ms
+06:42:10.785 INFO  Sensor VB.NET Project Type Information [vbnet]
+06:42:10.785 INFO  Sensor VB.NET Project Type Information [vbnet] (done) | time=0ms
+06:42:10.786 INFO  Sensor VB.NET Analysis Log [vbnet]
+06:42:10.801 INFO  Sensor VB.NET Analysis Log [vbnet] (done) | time=16ms
+06:42:10.801 INFO  Sensor VB.NET Properties [vbnet]
+06:42:10.801 INFO  Sensor VB.NET Properties [vbnet] (done) | time=0ms
+06:42:10.801 INFO  Sensor IaC Docker Sensor [iac]
+06:42:10.805 INFO  0 source files to be analyzed
+06:42:10.856 INFO  0/0 source files have been analyzed
+06:42:10.856 INFO  Sensor IaC Docker Sensor [iac] (done) | time=55ms
+06:42:10.860 INFO  ------------- Run sensors on project
+06:42:10.926 INFO  Sensor Analysis Warnings import [csharp]
+06:42:10.926 INFO  Sensor Analysis Warnings import [csharp] (done) | time=1ms
+06:42:10.927 INFO  Sensor Zero Coverage Sensor
+06:42:10.927 INFO  Sensor Zero Coverage Sensor (done) | time=0ms
+06:42:10.934 INFO  CPD Executor Calculating CPD for 0 files
+06:42:10.935 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+06:42:11.006 INFO  Analysis report generated in 68ms, dir size=121.9 kB
+06:42:11.014 INFO  Analysis report compressed in 8ms, zip size=14.8 kB
+06:42:11.256 INFO  Analysis report uploaded in 242ms
+06:42:11.258 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://sonarqube:9000/dashboard?id=flask-app
+06:42:11.259 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+06:42:11.259 INFO  More about the report processing at http://sonarqube:9000/api/ce/task?id=AZDeU3qhkmHU0dzOyX5u
+06:42:11.271 INFO  Analysis total time: 4.763 s
+06:42:11.272 INFO  EXECUTION SUCCESS
+06:42:11.273 INFO  Total time: 7.470s
+[8mha:////4JG2ASraBv5Kyf1JDzFJJ8fPIGC74H1TbMpD/N4GhqhNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgEM9aTqvgAAAA==[0m[Pipeline] }
+[8mha:////4HacYrDLnWroaVa688KiP2U3zMWLr7iAKDQMgoWKt7QzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgE0tzcbvgAAAA==[0m[Pipeline] // dir
+[8mha:////4L2tYNUF8bO7xgM/vl5arfDxuwl8rbSJteDCSc9fsDc4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqhSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/Bis1Ykm+AAAA[0m[Pipeline] }
+[8mha:////4C9Y2vOtOE7W+xWTEjeZi9uCN+tVUzln0ktcyGtypgqeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBxKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bmi3M8++AAAA[0m[Pipeline] // withCredentials
+[8mha:////4DK1mkGWXtLzEZ/4v8WCi2NRuoxfn2xHRJXWQXU60wc7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgSJEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPyjtqGS+AAAA[0m[Pipeline] }
+[8mha:////4NEBtPH6bw8Jy6g7HgmH6sVlmwogfvPEdJa68R0nZkzkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJChSIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QGf/OjCvgAAAA==[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4AiS71/Az4eYB25tCTFV5I+Q7KOAINug0QSmmkOAjheOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGkBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrl2+w+rMguZvgAAAA==[0m[Pipeline] }
+[8mha:////4EoF7BS5bHMl5CLGHdD9WKJ9pfz4u7bS7jgP23fZY4szAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRKCIkRJXWSsMLTHwYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHI3qkwVLsrPBuNHmJicNwdTyJni+iY4rsULQ4tayxWbDlhLCkKGElYYPUOY6WTIKt7NVDVU6Rqc4p5O8oobT6Dk8oZDYnFdIX5gC726gj08/zVwCz9wnKwz5XXX8Ak3CYaL4AAAA=[0m[Pipeline] // stage
+[8mha:////4LdHhldsigFmxUSNnX8C4Ec5+oHI/XE68j5H8so9RhCbAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCAYk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bfvt5Vm9bNjm0wgAAAA==[0m[Pipeline] stage
+[8mha:////4BtbAxFpOaDBJcUtbE1PiO4Zr++gX6YvnOnQObZqJpVcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADxKa4dwgAAAA==[0m[Pipeline] { (Build Docker Image)
+[8mha:////4JN9n4gaYPWDKjLi1TbCuIyzn9tDwrnxZppGvg46K8k0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADX78n/wgAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Practical Test/workspace/webapp
+[8mha:////4J/qK5YbGH8eFN83NnTJpkHzleRPeeWhCUEq1Sgr2DxQAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AiEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7lC07jCAAAA[0m[Pipeline] {
+[8mha:////4L7WqW6aUbzmyI0DrS9AeqMjh4TKO2EDWFivGN0tkZgKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBsroJZ2+AAAA[0m[Pipeline] sh
++ docker build -t flask-app .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:682aa289239348df379f22e5d10509246dfc38bbad802523ff50eaaedc726276
+#1 transferring dockerfile: 520B 0.0s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/python:3.9-slim
+#2 sha256:1d3e2bb549583c8cacf2bd084985075d19ab29198f29c23921a9c15ac573242f
+#2 DONE 1.9s
+
+#3 [internal] load .dockerignore
+#3 sha256:51bb1c76f38512fb97c0b61bf8c7b3a5657799810af45059d0b5f4bcf1e059b6
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#8 [1/4] FROM docker.io/library/python:3.9-slim@sha256:a6c12ec09f13df9d4b8b4e4d08678c1b212d89885be14b6c72b633bee2a520f4
+#8 sha256:f1d3d94bc3d18b084ef62a519847f7e4b787f8ce44a58fec44dc333ede1f3e9a
+#8 DONE 0.0s
+
+#6 [internal] load build context
+#6 sha256:9d55e41af544face44d71e1689df5c3f82a165052d91dcfd9a797dd94e8510f3
+#6 transferring context: 34.64MB 1.8s done
+#6 DONE 1.8s
+
+#7 [2/4] WORKDIR /app
+#7 sha256:4900450fbbd36463401c9e1583f601272014130dd58d05f1385f3a1862d8f1e0
+#7 CACHED
+
+#5 [3/4] COPY . /app
+#5 sha256:2dc9550bcef4e6dbba7994942b50887bdaa9614d5db876061e6b2c7fd2006317
+#5 DONE 0.8s
+
+#4 [4/4] RUN pip install --no-cache-dir -r requirements.txt
+#4 sha256:0d915b7b2d6e7d8b133753398860ac715f9aca5ca3a6d1e144ac28141311c5b6
+#4 2.971 Collecting Flask==2.0.2
+#4 3.041   Downloading Flask-2.0.2-py3-none-any.whl (95 kB)
+#4 3.059      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 95.2/95.2 kB 6.6 MB/s eta 0:00:00
+#4 3.123 Collecting Werkzeug==2.0.2
+#4 3.134   Downloading Werkzeug-2.0.2-py3-none-any.whl (288 kB)
+#4 3.161      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 288.9/288.9 kB 12.0 MB/s eta 0:00:00
+#4 3.224 Collecting requests
+#4 3.240   Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+#4 3.243      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 kB 178.4 MB/s eta 0:00:00
+#4 3.356 Collecting pytest==7.0.1
+#4 3.375   Downloading pytest-7.0.1-py3-none-any.whl (296 kB)
+#4 3.398      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 297.0/297.0 kB 14.8 MB/s eta 0:00:00
+#4 3.434 Collecting flask-wtf
+#4 3.444   Downloading flask_wtf-1.2.1-py3-none-any.whl (12 kB)
+#4 3.490 Collecting Jinja2>=3.0
+#4 3.508   Downloading jinja2-3.1.4-py3-none-any.whl (133 kB)
+#4 3.513      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.3/133.3 kB 186.0 MB/s eta 0:00:00
+#4 3.555 Collecting click>=7.1.2
+#4 3.571   Downloading click-8.1.7-py3-none-any.whl (97 kB)
+#4 3.575      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 kB 194.2 MB/s eta 0:00:00
+#4 3.603 Collecting itsdangerous>=2.0
+#4 3.615   Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+#4 3.655 Collecting iniconfig
+#4 3.664   Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+#4 3.704 Collecting packaging
+#4 3.716   Downloading packaging-24.1-py3-none-any.whl (53 kB)
+#4 3.719      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.0/54.0 kB 169.7 MB/s eta 0:00:00
+#4 3.751 Collecting attrs>=19.2.0
+#4 3.767   Downloading attrs-23.2.0-py3-none-any.whl (60 kB)
+#4 3.770      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.8/60.8 kB 162.1 MB/s eta 0:00:00
+#4 3.799 Collecting tomli>=1.0.0
+#4 3.808   Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+#4 3.842 Collecting py>=1.8.2
+#4 3.858   Downloading py-1.11.0-py2.py3-none-any.whl (98 kB)
+#4 3.863      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.7/98.7 kB 48.4 MB/s eta 0:00:00
+#4 3.897 Collecting pluggy<2.0,>=0.12
+#4 3.907   Downloading pluggy-1.5.0-py3-none-any.whl (20 kB)
+#4 4.094 Collecting charset-normalizer<4,>=2
+#4 4.112   Downloading charset_normalizer-3.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (142 kB)
+#4 4.117      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 142.3/142.3 kB 79.9 MB/s eta 0:00:00
+#4 4.196 Collecting urllib3<3,>=1.21.1
+#4 4.214   Downloading urllib3-2.2.2-py3-none-any.whl (121 kB)
+#4 4.217      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.4/121.4 kB 266.6 MB/s eta 0:00:00
+#4 4.249 Collecting idna<4,>=2.5
+#4 4.262   Downloading idna-3.7-py3-none-any.whl (66 kB)
+#4 4.265      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.8/66.8 kB 208.8 MB/s eta 0:00:00
+#4 4.305 Collecting certifi>=2017.4.17
+#4 4.322   Downloading certifi-2024.7.4-py3-none-any.whl (162 kB)
+#4 4.328      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 163.0/163.0 kB 60.6 MB/s eta 0:00:00
+#4 4.358 Collecting wtforms
+#4 4.375   Downloading wtforms-3.1.2-py3-none-any.whl (145 kB)
+#4 4.387      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 146.0/146.0 kB 48.0 MB/s eta 0:00:00
+#4 4.544 Collecting MarkupSafe>=2.0
+#4 4.555   Downloading MarkupSafe-2.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+#4 4.710 Installing collected packages: Werkzeug, urllib3, tomli, py, pluggy, packaging, MarkupSafe, itsdangerous, iniconfig, idna, click, charset-normalizer, certifi, attrs, wtforms, requests, pytest, Jinja2, Flask, flask-wtf
+#4 5.755 Successfully installed Flask-2.0.2 Jinja2-3.1.4 MarkupSafe-2.1.5 Werkzeug-2.0.2 attrs-23.2.0 certifi-2024.7.4 charset-normalizer-3.3.2 click-8.1.7 flask-wtf-1.2.1 idna-3.7 iniconfig-2.0.0 itsdangerous-2.2.0 packaging-24.1 pluggy-1.5.0 py-1.11.0 pytest-7.0.1 requests-2.32.3 tomli-2.0.1 urllib3-2.2.2 wtforms-3.1.2
+#4 5.756 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#4 5.897 
+#4 5.897 [notice] A new release of pip is available: 23.0.1 -> 24.1.2
+#4 5.897 [notice] To update, run: pip install --upgrade pip
+#4 DONE 6.1s
+
+#9 exporting to image
+#9 sha256:8ddc58ab0d0082f7ebf700d96c048b1f36dd2d1432677ab69d9d18d74a7874c4
+#9 exporting layers
+#9 exporting layers 0.3s done
+#9 writing image sha256:95a4bae038212966a3f8ad32c1484606334633a13e92a14b18cd8a57d0a320d7 done
+#9 naming to docker.io/library/flask-app:latest done
+#9 DONE 0.3s
+[8mha:////4MB0qNwMJQxZHip3Ts2j9ACZPcfcN6Yn7N7rwhAz0zlnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoUiIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/Bnt+gFe+AAAA[0m[Pipeline] }
+[8mha:////4Ntj8EyxJVG2AGW/fbmeWOuMotPZQ6qx/zxjqsXwoXmLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN2T81QW+AAAA[0m[Pipeline] // dir
+[8mha:////4O5QBsMsOqSLbzZd71rJ73U6RjUfAiwyNL8ynVgd85CeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQQFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw+OlqrzvgAAAA==[0m[Pipeline] }
+[8mha:////4E6WqKbl5dFwGrtNpFyl67R0Bu+lquoUvD9uMwEH54XnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRANCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw+I0JKmvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Eq9pfU0KnAmsg3Q3ZrTadFcP+YEAmvyT3fLVbSsuyjrAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIBaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXbbz/P6g1K7hLZwgAAAA==[0m[Pipeline] stage
+[8mha:////4BYOuFiu4rt8qMeCaGTTbZcXk5bygtjHOZ640x3TnnX8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD1KB9/zCAAAA[0m[Pipeline] { (Deploy Flask App)
+[8mha:////4Fs9Zd7iBFXQav3r7Dqp+n46TU15nXFkzFf3FRq3JwE1AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAUhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDypufCDCAAAA[0m[Pipeline] script
+[8mha:////4FMWq7S2frL6i6t3eOVElpLDP6rrckoyrQYJ35OyKEczAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gQEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwyoG8LCAAAA[0m[Pipeline] {
+[8mha:////4AHoy9HvrHb0yWgLlTVRZAkh4WL+xryGhdS//Fg/CE/JAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN7+pvni+AAAA[0m[Pipeline] echo
+Deploying Flask App...
+[8mha:////4MtlgRCncM19KcS40sIWmitYgWxHQuSO9l9eWi3TnQPdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN/6YpWG+AAAA[0m[Pipeline] sh
++ docker ps --filter publish=5000 --format {{.ID}}
++ xargs -r docker stop
+9c128762cd12
+[8mha:////4N9mwJnYkT0gFjMAxdaJM9jGbwiQB1oXo3nufo2r6L2tAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNzGEPea+AAAA[0m[Pipeline] sh
++ docker ps -a --filter status=exited --filter publish=5000 --format {{.ID}}
++ xargs -r docker rm
+[8mha:////4HEhTU/oasDe+/V4oxGE/81rEQitBI5woH5nBPLsGuIRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUUSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BnC1Jv++AAAA[0m[Pipeline] sh
++ docker run -d -p 5000:5000 flask-app
+817609fc634112b76507ce3000c864551e618354c991197454fea4fc1b384161
+[8mha:////4NuZ32L2iRO1mWD2jKmah77pp6FJnpNXCjf7hA0/kTJwAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGwsHAcKtsMjSeIIcZAZheTRag8kVfzDmZkxspf/fea93rDKgaoKVjRGewdRu3E4Eebnpgo9FdPk+joIjRhJG9EY6aGWnNasCE2sCzLoZCwNqg9RYeWYSM79VClV2jLM4fkjhJy197hCZlMZVaBvzAH2N7GNhL+On8DMA8M+WHPUOyqavgA7byB1b8AAAA=[0m[Pipeline] sh
++ sleep 10
+[8mha:////4GXZ6PoCkgiZLoNTxvpDx/f7arjJS1eXI9cXIX3YWbMbAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGksHAcKtsMjSeIJMZAZheTRag8kVfzDmZkxspf/fea93rDKgaoKVjRGewdxtaJwY82PTFR6K+eJtHRRbSEkbwRjZka0ua0YENsYFmWQyFhbbD1FB1aho3s1EOVXqEtzxySO0rInb7DEzKZyqwCf2EOsL2NOhL+On8DMA8DQ1HtKob8sP8AuStAL78AAAA=[0m[Pipeline] }
+[8mha:////4PRXOVbuKT4aRFWvMuzjjdrpBpW+uBk7MQZHXTIQLK9/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiAZFVLRWGl5gYmOcWHfBvpBUvIiv8QcsIlGx1c4083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7Hd7Bjyw/4DgWnT3r8AAAA=[0m[Pipeline] // script
+[8mha:////4G7dQqt4oVDAYKpkM1RTVCjDGNtyxQ2ANN9LE5IkmsQxAAAApR+LCAAAAAAAAP9tjTESgjAQRZcwFraWHiLoUDkOlW2GxhPEEGMgs4vJIlSeyKt5BxmZsfJX/73mvd6wShEqik62FjuPyXjZh8HNT44Uu2ugUbZ0kYYwUbCytmNNjT0tWBNbWJYJyBWsLZpAyaNj2KhWP3QRNLrizHF2RwXCN3d4QqbmMuvIX5gibG9Dkwh/nb8BmPqeId/vSgZxKD+HL+uLvwAAAA==[0m[Pipeline] }
+[8mha:////4KhNTnqdUAP/uaCp0nzzYYMKjKCq9xj0/kSMosdjCJTNAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiAZFVLRWGl5gYmOcWHfBvpBUvIiv8QcsIlGx1c4083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7Hd7Bnyw+4DqS/p4b8AAAA=[0m[Pipeline] // stage
+[8mha:////4CbqOlpbqndp8JgJMC5McS+yygDwX04cflkRHDf1Xb3EAAAAqB+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6JIopNhcm1Y/IJaai0072H7ECa/yF/zH0RJnLzTPTe5Oc8X5DFARcGK1mDnMGonej/YuYmRQnfxNIqWzkITRvJG1GasqTHHBWtiA0uSFDIJK4PaU3RoGdayVXdVeIW2OHGYt4OE1DU3eEAiZzOrwF+YAmyuQxMJf56/Aph6hrTcMWTldv+55m8IWDqfwwAAAA==[0m[Pipeline] stage
+[8mha:////4BJSkZb/IPItNgXxi2OdjqriB357MBdlBloS8ZpW2UVcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApDLCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QeNKyY7xAAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4CgqSsgqZcmeYnmVUKg0m+OzGvTx9JCyJa8U0Up8XrM6AAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBEGy2cVLZMGk+AgAhh/o9AJJUn8mrewUwyY+UWO/u2ee8PrGKAhoJhTmNnMUrLej+YabFMobt5yszRlUnCSF6zVueWlD4v2FLSsKQooeKw1ig9RYsmwYY78RS1F2jqSwrTd+JQWvWAFxR8MicR0gxjgO19UJHw5/krgLFPUO13h7mP/Rf0TcntwAAAAA==[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4FqitCo34W1DpSD6ExcgppbvS6ymMuyntumVYmVEhbDHAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDDUJCqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7PkG13x3nPnwBXLZq8cAAAAA=[0m[Pipeline] }
+[8mha:////4NynTMNDZ0vYSgOueJ9LwvnrAn6yyvdKI22y6LIfbdB3AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDBQVCqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7PkG13x3nPnwBUuwUzsAAAAA=[0m[Pipeline] // stage
+[8mha:////4MRaJ6iQn9jFw1SQxuJWZIKghkseozHAkncqF7DTEoOWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDJDpERWul4QUmNsaJdWfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSt6g4PD1DkR/GjnJzLF4eopi54uoiNM5I1oTW5Jm9OCLbGBZUUJlYS1wc5TcmgZNrJXD1V7hbY+c5zdQULp9B2eUMi5zCryF6YI29uoE+Gv8zcAUwgMVdPsGMpm/wE2SbX9vwAAAA==[0m[Pipeline] }
+[8mha:////4KLvZGf5vXuHUGqbi/q269xYL21FfjsAlLJqlbsuHBs4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjixJR0VppeIFxjHFi3SX2haTiRXyNP2ARiYqtdqaZ1xs2KcKJohOdxd5jMl4MYXL5iZlifws0i46uwhAmClY0dm6otecVG2IL64oSKgVbiyZQ8ugYdqrTD10Hja6+cMzuqKD07QhPKFQus478hSXC/j61ifDX+RuAZRgYKiklQykPHzAPjai/AAAA[0m[Pipeline] // withEnv
+[8mha:////4Nof4joQg0IgDCSnVsIPG/l64gkZotLKDiECTC+ucT4MAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxEmto6VbYbGE8QQYyCzC8kiVJ7Iq3kHMzJj5a/+e817vWGTIpwoOtFZ7D0m48UQJpefmCn2t0Cz6OgqDGGiYEVj54Zae16xIbawriihUrC1aAIlj45hpzr90HXQ6OoLx+yOCkrfjvCEQuUy68hfWCLs71ObCH+dvwFYhoGhkvLAUEr5AbIcF8C/AAAA[0m[Pipeline] }
+[8mha:////4KEA9oXdao9CKxWcQLk6bsc/L+72oSt2cVvu3H8tdsSHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDRImoaK00vMDExjix7ox9wal4EV/jD0REomKrnWnm9YZVinCkaEVvcHCYOieCH+38RKY4XD1l0dNFdISJvBGtyS1pc1qwJTawrCihkrA22HlKDi3DRvbqoWqv0NZnjrM7SCidvsMTCjmXWUX+whRhext1Ivx1/gZgCoGhapo9Q9nsPoH/THy/AAAA[0m[Pipeline] // withEnv
+[8mha:////4G5FuMhXrWdwUgGVFYUhA73g1H/BSDwLTZgDZBXjyRKUAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjSOkQFa2VhheYxBgn1p2xLyQVL+Jr/AGLSFRstTPNvN6wSRGOFK0cDI4OU+dk8JPNT84Ux6unWQ50kR1hIm9ka+aWenNasSU2sE4UUCrYGuw8JYeWYacG/dCV12irM8fsDgoK19/hCULlMuvIX1gi7G9Tnwh/nb8BWEJgKOu6YRDNB4Q9HXa+AAAA[0m[Pipeline] }
+[8mha:////4O7Bq9hZV+A1e9itjM6YIsEpvBoWQOlv9XUQyu0q/pccAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjCFEhKlorDS8wsTFOrLtgX3AqXsTX+AMRkajYameaeb1hlSIcKTrZWew9ptbLIYxufjJT7K+BsuzoIlvCRMHKxuaGjD0t2BBbWCYKKBWsLbaBkkfHsFGdfugqaHTVmePsDgoKb+7wBKHmMuvIX5gibG+jSYS/zt8ATMPAUNb1nkHsPpeBGdW+AAAA[0m[Pipeline] // node
+[8mha:////4KVPND89mujAJqguvtZvL3FzyTOeHW7RtXfwG6Y0c2tzAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjUNAgKlorDS8wsTFOrLtgX3AqXsTX+AMRkajYameaeb1hlSIcKTrZWew9ptbLIYxufjJT7K+BsuzoIlvCRMHKxuaGjD0t2BBbWCYKKBWsLbaBkkfHsFGdfugqaHTVmePsDgoKb+7wBKHmMuvIX5gibG+jSYS/zt8ATMPAUNb1nkHsPtHLvuW+AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
