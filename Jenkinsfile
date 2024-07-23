@@ -89,14 +89,20 @@ pipeline {
 		
         stage('UI Testing') {
             steps {
-                dir('workspace/webapp') {
-                    sh '''
-                        #!/bin/bash
-                        set +e
-                        source $VENV_PATH/bin/activate
-                        pytest tests/ui --junitxml=ui-test-results.xml
-                        set -e
-                    '''
+                dir('workspace/flask') {
+                    script {
+                        sh '''
+                            set +e
+                            source $VENV_PATH/bin/activate
+                            FLASK_APP=$FLASK_APP_PATH flask run &
+                            sleep 5
+                            curl -s http://127.0.0.1:5000 || echo "Flask app did not start"
+                            curl -s -X POST -F "password=5TrongP@ssw0rd" http://127.0.0.1:5000 | grep "Welcome"
+                            curl -s -X POST -F "password=password" http://127.0.0.1:5000 | grep "Password not valid"
+                            pkill -f "flask run"
+                            set -e
+                        '''
+                    }
                 }
             }
         }
