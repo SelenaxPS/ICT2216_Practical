@@ -6,7 +6,6 @@ pipeline {
         FLASK_APP_PATH = 'workspace/webapp/app.py'
         PATH = "$VENV_PATH/bin:$PATH"
         SONARQUBE_SCANNER_HOME = tool name: 'SonarQube Scanner'
-        //SONARQUBE_TOKEN = 'squ_c20ae2023f5357e008ba4facd8271c094d1fffa8'
     }
 
     stages {
@@ -15,7 +14,7 @@ pipeline {
                 sh 'docker --version'
             }
         }
-        
+
         stage('Clone Repository') {
             steps {
                 dir('workspace') {
@@ -23,7 +22,7 @@ pipeline {
                 }
             }
         }
-        
+
         stage('Setup Virtual Environment') {
             steps {
                 dir('workspace/webapp') {
@@ -31,7 +30,7 @@ pipeline {
                 }
             }
         }
-        
+
         stage('Activate Virtual Environment and Install Dependencies') {
             steps {
                 dir('workspace/webapp') {
@@ -40,12 +39,31 @@ pipeline {
                         set +e
                         source $VENV_PATH/bin/activate
                         pip install -r requirements.txt
+                        pip install webdriver-manager
                         set -e
                     '''
                 }
             }
         }
-        
+
+        stage('Install Chrome and ChromeDriver') {
+            steps {
+                sh '''
+                    #!/bin/bash
+                    set +e
+                    if ! command -v google-chrome &> /dev/null
+                    then
+                        echo "Installing Google Chrome..."
+                        wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+                        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+                        sudo apt-get update
+                        sudo apt-get install -y google-chrome-stable
+                    fi
+                    set -e
+                '''
+            }
+        }
+
         stage('Integration Testing') {
             steps {
                 dir('workspace/webapp') {
@@ -68,7 +86,21 @@ pipeline {
                 }
             }
         }
-        
+		
+        stage('UI Testing') {
+            steps {
+                dir('workspace/webapp') {
+                    sh '''
+                        #!/bin/bash
+                        set +e
+                        source $VENV_PATH/bin/activate
+                        pytest tests/ui --junitxml=ui-test-results.xml
+                        set -e
+                    '''
+                }
+            }
+        }
+ 
         stage('SonarQube Analysis') {
             steps {
                 withSonarQubeEnv('SonarQube') {
@@ -88,7 +120,7 @@ pipeline {
                 }
             }
         }
-        
+
         stage('Build Docker Image') {
             steps {
                 dir('workspace/webapp') {
@@ -96,7 +128,7 @@ pipeline {
                 }
             }
         }
-        
+
         stage('Deploy Flask App') {
             steps {
                 script {
@@ -108,8 +140,7 @@ pipeline {
                 }
             }
         }
-    }
-    
+
     post {
         failure {
             script {
@@ -118,6 +149,7 @@ pipeline {
         }
         always {
             archiveArtifacts artifacts: 'workspace/webapp/integration-test-results.xml', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'workspace/webapp/ui-test-results.xml', allowEmptyArchive: true
         }
     }
 }
