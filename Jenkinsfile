@@ -10,7 +10,13 @@ pipeline {
     stages {
         stage('Check Docker') {
             steps {
-                sh 'docker --version'
+                sh '''
+                    if ! command -v docker &> /dev/null; then
+                        echo "Docker is not installed. Installing Docker..."
+                        apt-get update && apt-get install -y docker.io
+                    fi
+                    docker --version
+                '''
             }
         }
         
@@ -34,36 +40,32 @@ pipeline {
             steps {
                 dir('workspace/webapp') {
                     sh '''
-                        set +e
                         source $VENV_PATH/bin/activate
                         pip install -r requirements.txt
-                        set -e
                     '''
                 }
             }
         }
         
-		stage('Integration Testing') {
+        stage('Integration Testing') {
             steps {
                 dir('workspace/webapp') {
                     sh '''
-                        set +e
                         source $VENV_PATH/bin/activate
                         pytest --junitxml=integration-test-results.xml
-                        set -e
                     '''
                 }
             }
         }
 
-		stage('OWASP DependencyCheck') {
-			steps {
-				withCredentials([string(credentialsId: 'NVD_API_KEY', variable: 'NVD_API_KEY')]) {
-					dependencyCheck additionalArguments: "-o './' -s './' -f 'ALL' --prettyPrint --nvdApiKey ${env.NVD_API_KEY}", odcInstallation: 'OWASP Dependency-Check Vulnerabilities'
-					dependencyCheckPublisher pattern: 'dependency-check-report.xml'
-				}
-			}
-		}
+        stage('OWASP DependencyCheck') {
+            steps {
+                withCredentials([string(credentialsId: 'NVD_API_KEY', variable: 'NVD_API_KEY')]) {
+                    dependencyCheck additionalArguments: "-o './' -s './' -f 'ALL' --prettyPrint --nvdApiKey ${env.NVD_API_KEY}", odcInstallation: 'OWASP Dependency-Check Vulnerabilities'
+                    dependencyCheckPublisher pattern: 'dependency-check-report.xml'
+                }
+            }
+        }
         
         stage('Build Docker Image') {
             steps {
