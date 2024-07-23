@@ -23,6 +23,26 @@ services:
       dockerfile: Dockerfile
     ports:
       - "5000:5000"
+      
+  # SonarQube service configuration
+  sonarqube:
+    image: sonarqube:lts
+    ports:
+      - "9000:9000"  
+    environment:
+      - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true  
+      - SONARQUBE_JDBC_URL=jdbc:mysql://db:3306/sonarqube
+      - SONARQUBE_JDBC_USERNAME=sonarqube  
+      - SONARQUBE_JDBC_PASSWORD=sonarqube  
+
+  # MySQL database service configuration
+  db:
+    image: mysql:latest   
+    environment:
+      MYSQL_ROOT_PASSWORD: 2102934
+      MYSQL_DATABASE: sonarqube  
+      MYSQL_USER: sonarqube  
+      MYSQL_PASSWORD: sonarqube  
 
 volumes:
   jenkins_data:

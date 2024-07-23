@@ -30,5 +30,3 @@ RUN curl -L "https://github.com/docker/compose/releases/download/2.29.0/docker-c
 	
 # Add Jenkins user to Docker group
 RUN usermod -aG docker jenkins
-
-USER jenkins
